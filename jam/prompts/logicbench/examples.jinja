@@ -1,0 +1,241 @@
+{# Define a list of all in-context examples used in prompts #}
+{%- set examples= [
+    {
+        'context': 'If someone walks in the rain, they will get wet. Conversely, if someone exercises a lot, they will get fit. It is known that at least one of the following statements is true: (1) either John walks in the rain and (2) he will not get fit. It is possible that solely (1) is true, or solely (2) is true, or even both are true simultaneously.',
+        'query': 'Can we say at least one of the following must always be true? (a) he will get wet and (b) he does not exercises a lot?',
+        'target':'Yes',
+        'cot_steps': '1. John walks in the rain or he will not get fit 2. If John walks in the rain he will get wet. 3. If John will not get fit he cannot exercise a lot.',
+
+        'fol': {
+            'predicates': 'WalksInRain(x) ::: x walks in the rain.
+GetWet(x) ::: x gets wet.
+ExercisesALot(x) ::: x exercises a lot.
+GetFit(x) ::: x gets fit.',
+            'premises':'∀ ?someone (WalksInRain(?someone) → GetWet(?someone)) ∧ (ExercisesALot(?someone) → GetFit(?someone)) ∧ (WalksInRain(john) ∨ ¬GetFit(john))', 
+            'conclusion':'GetWet(john) ∨ ¬ExercisesALot(john)'},
+
+        'fol_no_grounding': {
+            'predicates': 'P(x) ::: x walks in the rain.
+Q(x) ::: x gets wet.
+R(x) ::: x exercises a lot.
+S(x) ::: x gets fit.',
+            'premises': '∀ ?x (P(?x) → Q(?x)) ∧ (R(?x) → S(?x)) ∧ (P(a) ∨ ¬S(a))',
+            'conclusion':'Q(a) ∨ ¬R(a)'},
+
+        'fol_full_context': {
+            'predicates': 'WalksInRain(x) ::: x walks in the rain.
+GetWet(x) ::: x gets wet.
+ExercisesALot(x) ::: x exercises a lot.
+GetFit(x) ::: x gets fit.
+LeaderForLife(x) ::: x is a leader for life.
+King(x) ::: x is a king.
+Queen(x) ::: x is queen.',
+            'premises':'(∀ ?someone (WalksInRain(?someone) → GetWet(?someone)) ∧ (ExercisesALot(?someone) → GetFit(?someone))) ∧ (∀ ?person (LeaderForLife(?person) → (King(?person) ∨ Queen(?person)))) ∧ (WalksInRain(john) ∨ ¬GetFit(john))',
+            'conclusion': 'GetWet(john) ∨ ¬ExercisesALot(john)'},
+
+        'simplified_fol': {
+            'predicates': 'WalksInRain(x) ::: x walks in the rain.
+GetWet(x) ::: x gets wet.
+ExercisesALot(x) ::: x exercises a lot.
+GetFit(x) ::: x gets fit.',
+            'premises':'∀x (WalksInRain(x) → GetWet(x)) ::: If someone walks in the rain, they will get wet.
+∀x (ExercisesALot(x) → GetFit(x)) ::: If someone exercises a lot, they will get fit.
+(WalksInRain(john) ∨ ¬GetFit(john)) ::: John walks in the rain or he will not get fit.',
+            'conclusion':'GetWet(john) ∨ ¬ExercisesALot(john) ::: John will get wet or he does not exercises a lot.'},
+
+        'tptp': 'fof(axio0,axiom,(! [SOMEONE] :(walksInRain(SOMEONE) => getWet(SOMEONE)))).
+fof(axio1,axiom, (! [SOMEONE] : (exercisesALot(SOMEONE) => getFit(SOMEONE))).
+fof(axio2,axiom, (walksInRain(john) | ~getFit(john))).
+fof(conj0,conjecture,(getWet(john) | ~exercisesALot(john))).',
+
+        'simplified_fol_iterative': [
+            {
+                'predicates': 'WalksInRain(x) ::: x walks in the rain.
+GetWet(x) ::: x gets wet.
+ExercisesALot(x) ::: x exercises a lot.
+GetFit(x) ::: x gets fit.',
+                'premises':'∀x (WalksInRain → GetWet(x)) ::: If someone walks in the rain, they will get wet.
+∀x (ExercisesALot(x) → GetFit(x)) ::: If someone exercises a lot, they will get fit.
+(WalksInRain(john) ∨ ¬GetFit(john)) ::: John walks in the rain or he will not get fit.',
+                'conclusion':'GetWet(john) ∨ ¬ExercisesALot(john) ::: John will get wet or he does not exercises a lot.',
+                'feedback_message': 'mismatched input \'→\' expecting \'(\''},
+            {
+                'premises': '∀x (WalksInRain(x) → GetWet(x)) ::: If someone walks in the rain, they will get wet.
+∀x (ExercisesALot(x) → GetFit(x)) ::: If someone exercises a lot, they will get fit.
+(WalksInRain(john) ∨ ¬GetFit(john)) ::: John walks in the rain or he will not get fit.'
+            }],
+    },
+    {
+        'context': 'If a person leaves late, they will miss their train. In this particular situation, James left late.',
+        'query': 'Does this entail that he will not miss his train?',
+        'target': 'No',
+        'cot_steps': '1. James left late 2. James left late, he will miss his train. 3. John misses his train contradicts that he will not miss his train.',
+
+        'fol': {
+            'predicates': 'LeaveLate(x) ::: x leaves late.
+MissTrain(x) ::: x misses their train.',
+            'premises':'∀ ?person (LeaveLate(?person) → MissTrain(?person)) ∧ LeaveLate(james)', 
+            'conclusion': '¬MissTrain(james)'},
+
+        'fol_no_grounding': {
+            'predicates': 'P(x) ::: x leaves late.
+Q(x) ::: x misses their train.',
+            'premises':'∀ ?x (P(?x) → Q(?x)) ∧ P(a)',
+            'concluion':'¬q(a)'},
+
+        'fol_full_context': {
+            'predicates': 'LeaveLate(x) ::: x leaves late.
+MissTrain(x) ::: x misses their train.',
+            'premises':'∀ ?person (LeaveLate(?person) → MissTrain(?person)) ∧ LeaveLate(james)',
+            'conclusion': '¬MissTrain(james)'},
+
+        'simplified_fol': {
+            'predicates': 'LeaveLate(x) ::: x leaves late.
+MissTrain(x) ::: x misses their train.',
+            'premises':'∀x (LeaveLate(x) → MissTrain(x)) ::: If a person leaves late, they will miss their train.
+LeaveLate(james) ::: James leavs late.',
+            'conclusion':'¬MissTrain(james) ::: James does not miss his train.'},
+
+        'tptp': 'fof(axio0, axiom,(! [PERSON] :(leaveLate(PERSON) => missTrain(PERSON)))).
+fof(axio1, axiom, (leaveLate(james))).
+fof(conj0,conjecture,(~missTrain(james))).',
+
+        'simplified_fol_iterative': [
+            {
+                'predicates': 'Leave_late(x) ::: x leaves late.
+MissTrain(x) ::: x misses their train.',
+                'premises':'∀x (Leave_late(x) → MissTrain(x)) ::: If a person leaves late, they will miss their train.
+Leave_late(james) ::: James leavs late.',
+                'conclusion':'¬MissTrain(james) ::: James does not miss his train.',
+                'feedback_message': 'mismatched input \'_\' expecting {\',\', \')\'}'},
+            {
+                'predicates': 'LeaveLate(x) ::: x leaves late.
+MissTrain(x) ::: x misses their train.',
+                'premises': '∀x (LeaveLate(x) → MissTrain(x)) ::: If a person leaves late, they will miss their train.
+LeaveLate(james) ::: James leavs late.'
+            }],
+    },
+    {
+        'context': 'It is known that one of the following options is true: someone goes to the office or someone goes home. However, Jill does not go to the office.',
+        'query': 'Does this imply that Jill goes home?',
+        'target': 'Yes',
+        'cot_steps': '1. Jill goes to the office or she goes home. 2. If Jill does not go to the office she must go home instead.',
+
+        'fol': {
+            'predicates': 'GoesToOffice(x) ::: x goes to the office.
+GoesHome(x) ::: x goes home.',
+            'premises':'(∀ ?someone (GoesToOffice(?someone) ∨ GoesHome(?someone)) ∧ ¬GoesToOffice(jill))',
+            'conclusion': 'GoesHome(jill)' },
+
+        'fol_no_grounding': {
+            'predicates': 'P(x) ::: x goes to the office.
+Q(x) ::: x goes home.',
+            'premises':'∀ ?x (P(?x) ∨ Q(?x)) ∧ ¬P(a)',
+            'conclusion':'Q(a)'},
+
+        'fol_full_context': {
+            'predicates': 'GoesToOffice(x) ::: x goes to the office.
+GoesHome(x) ::: x goes home.
+Barks(x) ::: x barks.
+Dead(x) ::: x is dead.',
+            'premises':'(∀ ?someone (GoesToOffice(?someone) ∨ GoesHome(?someone)) ∧ ¬GoesToOffice(jill)) ∧ (∀ ?pet (Barks(?pet) → ¬Dead(?pet)))',
+            'conclusion': 'GoesHome(jill)'},
+
+        'simplified_fol': {
+            'predicates': 'GoesToOffice(x) ::: x goes to the office.
+GoesHome(x) ::: x goes home.',
+            'premises':'∀x (GoesToOffice(x) ∨ GoesHome(x)) ::: Either someone goes to the office or someone goes home.
+¬GoesToOffice(jill) ::: Jill does not go to the office.',
+            'conclusion':'GoesHome(jill) ::: Jill goes home.'},
+
+        'tptp': 'fof(axio0,axiom,(! [SOMEONE] :(goesToOffice(SOMEONE) | goesHome(SOMEONE)))).
+fof(axio1,axiom,(~goesToOffice(jill))).
+fof(conj0,conjecture,(goesHome(jill))).',
+
+        'simplified_fol_iterative': [
+            {
+                'predicates': 'GoesToOffice(x) ::: x goes to the office.
+GoesHome(x) ::: x goes home.',
+                'premises':'∀x, y (GoesToOffice(x) ∨ GoesHome(y)) ::: Either someone goes to the office or someone goes home.
+¬GoesToOffice(jill) ::: Jill does not go to the office.',
+                'conclusion':'GoesHome(jill) ::: Jill goes home.',
+                'feedback_message': 'extraneous input \',\' expecting {IDENTIFIER, \'(\', \'¬\', \'∀\', \'∃\'}'},
+            {
+                'premises': '∀x (GoesToOffice(x) ∨ GoesHome(x)) ::: Either someone goes to the office or someone goes home.
+¬GoesToOffice(jill) ::: Jill does not go to the office.'
+            }],
+    }
+] -%}
+
+{%- set syntax_errors= [
+    {
+        'draft': {
+            'predicates': 'MusicPiece(x) ::: x is a music piece
+Composer(x) ::: x is a composer.
+Write(x,y) ::: x write y.
+Lead(x,y) ::: x lead y.
+Orchestra(x) ::: x is a orchestra.
+Conductor(x) ::: x is a conductor.',
+            'premises': 'MusicPiece(symphonyNo9) ::: Symphony No. 9 is a music piece.
+∀x (Composer(x) → ∃y (Write(x, y) ∧ MusicPiece(y))) ::: Composers write music pieces.
+Write(beethoven, symphonyNo9) ::: Beethoven wrote Symphony No. 9.
+Lead(beethoven, viennaMusicSociety) ∧ Orchestra(viennaMusicSociety) ::: Vienna Music Society is an orchestra and Beethoven leads the Vienna Music Society.
+∀x (Orchestra(x) → ∃y (Lead(y, x) ∧ Conductor(y))) ::: Orchestras are led by conductors.',
+            'conclusion': '¬Conductor(beethoven) ::: Beethoven is not a conductor.'},
+        'feedback_message': 'parsing error',
+        'corrected': {
+            'premises': 'MusicPiece(symphonyNo9) ::: Symphony No. 9 is a music piece.
+∀x ∃z (¬Composer(x) ∨ (Write(x,z) ∧ MusicPiece(z))) ::: Composers write music pieces.
+Write(beethoven, symphonyNo9) ::: Beethoven wrote Symphony No. 9.
+Lead(beethoven, viennaMusicSociety) ∧ Orchestra(viennaMusicSociety) ::: Vienna Music Society is an orchestra and Beethoven leads the Vienna Music Society.
+∀x ∃z (¬Orchestra(x) ∨ (Lead(z,x) ∧ Conductor(z))) ::: Orchestras are led by conductors.',}
+    },
+    {
+        'draft': {
+            'predicates': 'JapaneseCompany(x) ::: x is a Japanese game company.
+Create(x, y) ::: x created the game y.
+Top10(x) ::: x is in the Top 10 list.
+Sell(x, y) ::: x sold more than y copies.',
+            'premises':'∃x (JapaneseCompany(x) ∧ Create(x, legendOfZelda)) ::: A Japanese game company created the game the Legend of Zelda.
+∀x (Top10(x) → ∃y (JapaneseCompany(y) ∧ Create(y, x))) ::: All games in the Top 10 list are made by Japanese game companies.
+∀x (Sell(x, oneMillion) → Top10(x)) ::: If a game sells more than one million copies, then it will be selected into the Top 10 list.
+Sell(legendOfZelda, oneMillion) ::: The Legend of Zelda sold more than one million copies.',
+            'conclusion':'Top10(legendOfZelda) ::: The Legend of Zelda is in the Top 10 list.'
+        },
+        'feedback_message': 'parsing error',
+        'corrected': {
+            'premises':'∃x (JapaneseCompany(x) ∧ Create(x, legendOfZelda)) ::: A Japanese game company created the game the Legend of Zelda.
+∀x ∃z (¬Top10(x) ∨ (JapaneseCompany(z) ∧ Create(z,x))) ::: All games in the Top 10 list are made by Japanese game companies.
+∀x (Sell(x, oneMillion) → Top10(x)) ::: If a game sells more than one million copies, then it will be selected into the Top 10 list.
+Sell(legendOfZelda, oneMillion) ::: The Legend of Zelda sold more than one million copies.'
+        }
+    },
+    {
+        'draft': {
+            'predicates': 'Listed(x) ::: x is listed in Yelp’s recommendations.
+NegativeReviews(x) ::: x receives many negative reviews.
+Rating(x, y) ::: x has a rating of y.
+TakeOut(x) ::: x provides take-out service.
+Popular(x) ::: x is popular among local residents.',
+            'premises':'∀x (Listed(x) → ¬NegativeReviews(x)) ::: If the restaurant is listed in Yelp’s recommendations, then the restaurant does not receive many negative reviews.
+∀x (Rating(x, y) ∧ y > 9 → Listed(x)) ::: All restaurants with a rating greater than 9 are listed in Yelp’s recommendations.
+∃x (¬TakeOut(x) ∧ NegativeReviews(x)) ::: Some restaurants that do not provide take-out service receive many negative reviews.
+∀x (Popular(x) → (Rating(x, y) ∧ y > 9)) ::: All restaurants that are popular among local residents have ratings greater than 9.
+Rating(subway, y) ∧ y > 9 ∨ Popular(subway) ::: Subway has a rating greater than 9 or is popular among local residents.',
+            'conclusion':'TakeOut(subway) ∧ ¬NegativeReviews(subway) ::: Subway provides take-out service and does not receive many negative reviews.'
+        },
+        'feedback_message': 'parsing error',
+        'corrected': {
+            'predicates': 'Listed(x) ::: x is listed in Yelp’s recommendations.
+NegativeReviews(x) ::: x receives many negative reviews.
+TakeOut(x) ::: x provides take-out service.
+Popular(x) ::: x is popular among local residents.
+GreaterThanNine(x) ::: x has a rating greater than 9.',
+            'premises':'∀x (Listed(x) → ¬NegativeReviews(x)) ::: If the restaurant is listed in Yelp’s recommendations, then the restaurant does not receive many negative reviews.
+∀x (GreaterThanNine(x) → Listed(x)) ::: All restaurants with a rating greater than 9 are listed in Yelp’s recommendations.
+∃x (¬TakeOut(x) ∧ NegativeReviews(x)) ::: Some restaurants that do not provide take-out service receive many negative reviews.
+∀x (Popular(x) → GreaterThanNine(x)) ::: All restaurants that are popular among local residents have ratings greater than 9.
+GreaterThanNine(subway) ∨ Popular(subway) ::: Subway has a rating greater than 9 or is popular among local residents.',
+        }
+    }
+] -%}

@@ -1,0 +1,8 @@
+defaults: 
+  - /jam/solver/SolverPipeline@_here_
+  
+  - /jam/solver/tptp/NoneParser@parser
+  - /jam/solver/fol/VampireReasoner@solver
+
+
+  - _self_

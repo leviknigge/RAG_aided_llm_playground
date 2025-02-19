@@ -1,0 +1,38 @@
+{% extends "qa_prompt.jinja" %}
+
+{%- macro baseline_prompt(context, query, cot_steps, target) -%}
+{% call qa_sample(context,query) %}
+{%- if use_cot -%}
+Reasoning steps: {{chat_prompt(end_example)}}{{chat_prompt(seperator)}}{{chat_prompt(start_answer)}}{{cot_steps}}
+Answer: {{target}}
+{%- else -%}
+Answer: {{chat_prompt(end_example)}}{{chat_prompt(seperator)}}{{chat_prompt(start_answer)}}{{target}}
+{%- endif -%}
+{%- endcall -%}
+{%- endmacro -%}
+
+{% import 'examples.jinja' as ex %}
+
+{%- block task_description -%}
+{%- if use_cot -%}
+Given a problem description and a related question. The task is to answer the logical reasoning question by thinking step-by-step. Use your logical reasoning abilities. First, generate a list of steps and ALWAYS conclude with either 'Yes' or 'No'.
+{%- else -%}
+Given a problem description and a related question. The task is to answer the logical reasoning question with ONLY 'Yes' or 'No'. Use your logical reasoning abilities. DO NOT generate any other response apart from 'Yes' or 'No'.
+{%- endif -%}
+{%- endblock task_description -%}
+
+{%- block few_shot_samples -%}
+{% for example in ex.examples[:n_samples|default(ex.examples|length)] %}
+{{- baseline_prompt(context=example.context, query=example.query, cot_steps=example.cot_steps, target=example.target)}}
+{{- chat_prompt(seperator) -}}
+{% endfor %}
+{%- endblock few_shot_samples -%}
+
+{%- block infer_prompt-%}
+{{ super() }}
+{%- if use_cot %}
+Reasoning steps: {{chat_prompt(end_example)}}
+{%- else %}
+Answer: {{chat_prompt(end_example)}}
+{%- endif -%}
+{%- endblock infer_prompt -%}

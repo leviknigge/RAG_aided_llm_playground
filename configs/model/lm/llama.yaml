@@ -1,0 +1,18 @@
+defaults:
+  - /jam/lm/Transformers@_here_
+
+  - _self_
+
+# model_name: "meta-llama/Llama-2-7b-hf"
+# model_name: "meta-llama/Meta-Llama-3-8B"
+# model_name: "meta-llama/Meta-Llama-3-8B-Instruct"
+model_name: "meta-llama/Meta-Llama-3.1-8B-Instruct"
+# model_name: "meta-llama/Meta-Llama-3-70B"
+# model_name: "meta-llama/Meta-Llama-3-70B-Instruct"
+# model_name: "meta-llama/Meta-Llama-3.1-70B-Instruct"
+
+stop_list: 
+  - "----"
+  - "----\n"
+
+max_token: 1024

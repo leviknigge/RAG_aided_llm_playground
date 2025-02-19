@@ -1,0 +1,8 @@
+{% extends "fol.txt.jinja" %}
+
+{%- block few_shot_samples -%}
+{% for example in ex.examples[:n_samples|default(ex.examples|length)] %}
+{{- fol_prompt(context=example.context, query=example.query, fol_context=example.fol_no_grounding.context, fol_query=example.fol_no_grounding.query)}}
+{{- chat_prompt(seperator) -}}
+{% endfor %}
+{%- endblock few_shot_samples -%}

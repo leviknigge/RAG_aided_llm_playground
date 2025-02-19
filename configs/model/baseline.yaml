@@ -1,0 +1,15 @@
+defaults: 
+  - /jam/LMPipeline@_here_
+  # - lm: gemma
+  - lm: gpt
+  # - lm: llama
+  # - lm: mistral
+  - _self_
+
+lm: 
+  max_token: 512
+  # max_token: 20
+use_chat_prompt: True
+prompt_file: baseline_LogicBench.txt.jinja
+# prompt_file: baseline.txt.jinja
+use_cot: True

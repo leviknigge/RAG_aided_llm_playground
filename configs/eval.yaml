@@ -1,0 +1,22 @@
+defaults:
+  - base_config
+  # - model: baseline
+  # - model: langgraph
+  - model: langgraph_rag
+  # - datasets: logicbench
+  - datasets: logicbench_rag
+
+  - _self_
+
+batch_size: 1
+
+verbose: True
+experiment_name: LogicNoiseBench (JAM Linter Test)
+experiment_description: Experiment on the LogicBench dataset.
+experiment_tracking_uri: http://127.0.0.1:5000
+
+result_dir: ${oc.env:PROJECT_ROOT}/outputs/${experiment_name}/${now:%Y-%m-%d_%H-%M-%S}
+
+hydra:
+  run:
+    dir: ${result_dir}

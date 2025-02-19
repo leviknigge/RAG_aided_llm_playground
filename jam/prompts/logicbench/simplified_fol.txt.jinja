@@ -1,0 +1,40 @@
+{% extends "qa_prompt.jinja" %}
+
+{%- macro fol_sample(context, query, predicates, premises, conclusion) -%}
+{%- call qa_sample(context,query) -%}
+Predicates:
+{{chat_prompt(end_example)}}{{chat_prompt(seperator)}}{{chat_prompt(start_answer)}}{{predicates}}
+Premises:
+{{premises}}
+Conclusion:
+{{conclusion}}
+{%- endcall -%}
+{%- endmacro -%}
+
+{% import 'examples.jinja' as ex %}
+
+{% block task_description -%}
+Given a problem description and a question. The task is to parse the problem and the question into first-order logic formulars. Follow exactly the given structure.
+The grammar of the first-order logic formular is defined as follows:
+1) logical conjunction of expr1 and expr2: expr1 ∧ expr2
+2) logical disjunction of expr1 and expr2: expr1 ∨ expr2
+3) logical exclusive disjunction of expr1 and expr2: expr1 ⊕ expr2
+4) logical negation of expr1: ¬expr1
+5) expr1 implies expr2: expr1 → expr2
+6) expr1 if and only if expr2: expr1 ↔ expr2
+7) logical universal quantification: ∀x
+8) logical existential quantification: ∃x
+{%- endblock task_description%}
+
+{%- block few_shot_samples -%}
+{% for example in ex.examples[:n_samples|default(ex.examples|length)] %}
+{{- fol_sample(context=example.context, query=example.query, predicates=example.simplified_fol.predicates, premises=example.simplified_fol.premises, conclusion=example.simplified_fol.conclusion)}}
+{{- chat_prompt(seperator) -}}
+{% endfor %}
+{%- endblock few_shot_samples -%}
+
+{%- block infer_prompt-%}
+{{ super() }}
+Predicates:
+{{chat_prompt(end_example)}}
+{%- endblock infer_prompt -%}

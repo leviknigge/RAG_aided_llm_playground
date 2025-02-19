@@ -1,0 +1,30 @@
+{# Template to provide the basic structure for question answer tasks. 
+
+task_description: The task description block should be overwritten. 
+few_shot_samples: 
+infer_prompt: don't use 
+
+macro chat_prompt 
+macro qa_sample
+ #}
+
+{%- macro chat_prompt(chat_var)-%}
+{% if use_chat -%}{{chat_var}}{%- endif %}
+{%- endmacro -%}
+
+{%- macro qa_sample(context, query) -%}
+{{chat_prompt(start_example)}}Problem: {{context}}
+Question: {{query}}
+{{caller()}}
+----
+{{ chat_prompt(end_answer) }}
+{%- endmacro -%}
+
+{%- block task %}{{chat_prompt(start_task)}}Task Description: {% block task_description %}{% endblock task_description%}
+----
+{{chat_prompt(end_task)}}{%- endblock task -%}{{chat_prompt(seperator)-}}
+{%- block few_shot_samples %}{% endblock few_shot_samples -%}
+{%- block infer_prompt -%}
+{{chat_prompt(start_example)}}Problem: {{context}}
+Question: {{query}}
+{%- endblock infer_prompt %}

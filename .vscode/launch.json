@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        
+        {
+            "name": "Debug: evaluate",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "evaluate",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true,
+            "args": ["--config-name","debug"],
+        },
+        {
+            "name": "Run: evaluate",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "evaluate",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true,
+            "args": ["--config-name","eval"],
+        },
+    ]
+}

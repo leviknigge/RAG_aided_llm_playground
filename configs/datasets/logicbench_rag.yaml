@@ -1,0 +1,3 @@
+- _target_: jam.datasets.LogicBench
+  file_name: ${oc.env:PROJECT_ROOT}/data/LogicBench/abducted_data/binary/fol_eval.jsonl
+  prompt_dir: ${oc.env:PROJECT_ROOT}/jam/prompts/logicbench

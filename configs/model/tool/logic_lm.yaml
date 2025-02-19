@@ -1,0 +1,7 @@
+defaults: 
+  - /jam/solver/SolverPipeline@_here_
+  
+  - /jam/solver/logic_lm/fol/Prover9Parser@parser
+  - /jam/solver/logic_lm/fol/Prover9Reasoner@solver
+
+  - _self_

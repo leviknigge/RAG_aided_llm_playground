@@ -1,0 +1,40 @@
+datasets:
+- file_name: ${oc.env:PROJECT_ROOT}/data/LogicBench/abducted_data/binary/fol_eval_debug.jsonl
+  prompt_dir: ${oc.env:PROJECT_ROOT}/jam/prompts/logicbench
+  _target_: jam.datasets.LogicBench
+model:
+  lm:
+    model_name: gpt-4o-mini
+    max_token: 1024
+    stop_list:
+    - '----'
+    - '----
+
+      '
+    _target_: jam.language_models.GPT
+    api_key_env: OPENAI_API_KEY
+    temperature: 1.0
+    run_async: false
+  tool:
+    parser:
+      _target_: jam.symbolic_solvers.fol.TPTPParser
+      convert: true
+      simplified: true
+      feedback_msg: false
+    solver:
+      _target_: jam.symbolic_solvers.fol.tools.VampireReasoner
+    linter: null
+    tests: null
+    _target_: jam.symbolic_solvers.SolverPipeline
+  _target_: jam.langgraph_rag.LangGraphRagWrapper
+  prompt_file: simplified_fol.txt.jinja
+  feedback_file: simplified_fol_feedback.txt.jinja
+  use_chat_prompt: true
+  max_iterations: 1
+batch_size: 10
+result_dir: ${oc.env:PROJECT_ROOT}/outputs/debug
+verbose: true
+experiment_name: Debug JAM
+experiment_description: Experiment on tool-augmented language models.
+release_version: '0.1'
+experiment_tracking_uri: http://127.0.0.1:5000

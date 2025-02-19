@@ -1,0 +1,15 @@
+defaults: 
+  - /jam/LangGraphWrapper@_here_
+  # - lm: gemma
+  - lm: gpt
+  # - lm: llama
+  # - lm: mistral
+  - tool: logic_lm
+
+  - _self_
+
+max_iterations: 4
+use_chat_prompt: True
+
+prompt_file: simplified_fol.txt.jinja
+feedback_file: simplified_fol_feedback.txt.jinja

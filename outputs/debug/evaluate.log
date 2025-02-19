@@ -1,0 +1,111 @@
+[2025-02-17 23:35:13,877][root][INFO] - Verbose output.
+[2025-02-17 23:37:23,324][root][INFO] - Verbose output.
+[2025-02-17 23:39:37,709][root][INFO] - Verbose output.
+[2025-02-17 23:39:56,963][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:44:24,885][root][INFO] - Verbose output.
+[2025-02-17 23:44:40,004][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:44:43,582][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:44:47,064][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:44:50,334][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:44:54,950][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:44:58,447][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:45:05,399][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:45:09,144][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:45:14,712][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:45:19,488][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:45:19,690][root][WARNING] - No positive instances have been seen in target. Recall is converted from NaN to 0s.
+[2025-02-17 23:45:19,690][root][WARNING] - Warning: Some classes do not exist in the target. F1 scores for these classes will be cast to zeros.
+[2025-02-17 23:45:19,698][root][WARNING] - No positive instances have been seen in target. Recall is converted from NaN to 0s.
+[2025-02-17 23:45:19,698][root][WARNING] - Warning: Some classes do not exist in the target. F1 scores for these classes will be cast to zeros.
+[2025-02-17 23:45:19,698][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-17 23:45:19,698][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-17 23:45:19,698][root][INFO] - {'accuracy': 0.699999988079071, 'precision': 0.0, 'recall': 0.0, 'F1score': 0.0, 'accuracy valid': nan, 'precision valid': 0.0, 'recall valid': 0.0, 'F1score valid': 0.0, 'Status OK': 0.0, 'Status PARSE': 0.2, 'Status RUNTIME': 0.8, 'Status WARNING': 0.0}
+[2025-02-17 23:48:18,838][root][INFO] - Verbose output.
+[2025-02-17 23:48:26,927][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:48:32,545][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:48:36,436][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:50:01,656][root][INFO] - Verbose output.
+[2025-02-17 23:50:04,245][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-17 23:50:04,245][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-02-17 23:50:14,025][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:54:38,728][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:54:51,357][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:54:55,732][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:54:58,909][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:55:03,263][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:55:06,753][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:55:10,419][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:55:14,232][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:55:19,787][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:55:19,919][root][WARNING] - No positive instances have been seen in target. Recall is converted from NaN to 0s.
+[2025-02-17 23:55:19,920][root][WARNING] - Warning: Some classes do not exist in the target. F1 scores for these classes will be cast to zeros.
+[2025-02-17 23:55:19,922][root][WARNING] - No positive instances have been seen in target. Recall is converted from NaN to 0s.
+[2025-02-17 23:55:19,922][root][WARNING] - Warning: Some classes do not exist in the target. F1 scores for these classes will be cast to zeros.
+[2025-02-17 23:55:19,923][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-17 23:55:19,923][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-17 23:55:19,923][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-17 23:55:19,924][root][INFO] - {'accuracy': 0.699999988079071, 'precision': 0.0, 'recall': 0.0, 'F1score': 0.0, 'accuracy valid': nan, 'precision valid': 0.0, 'recall valid': 0.0, 'F1score valid': 0.0, 'Status OK': 0.0, 'Status PARSE': 0.0, 'Status RUNTIME': 1.0, 'Status WARNING': 0.0}
+[2025-02-17 23:57:31,572][root][INFO] - Verbose output.
+[2025-02-17 23:57:33,033][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-17 23:57:33,034][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-02-17 23:57:42,263][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-17 23:58:25,948][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:00:27,071][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:04:47,355][root][INFO] - Verbose output.
+[2025-02-18 00:04:49,494][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-18 00:04:49,495][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-02-18 00:04:57,643][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:08,861][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:15,060][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:18,990][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:22,874][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:30,997][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:34,349][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:39,083][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:44,212][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:48,640][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:05:48,860][root][WARNING] - No positive instances have been seen in target. Recall is converted from NaN to 0s.
+[2025-02-18 00:05:48,863][root][WARNING] - Warning: Some classes do not exist in the target. F1 scores for these classes will be cast to zeros.
+[2025-02-18 00:05:48,866][root][WARNING] - No positive instances have been seen in target. Recall is converted from NaN to 0s.
+[2025-02-18 00:05:48,867][root][WARNING] - Warning: Some classes do not exist in the target. F1 scores for these classes will be cast to zeros.
+[2025-02-18 00:05:48,869][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-18 00:05:48,869][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-18 00:05:48,870][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-18 00:05:48,870][root][INFO] - {'accuracy': 0.699999988079071, 'precision': 0.0, 'recall': 0.0, 'F1score': 0.0, 'accuracy valid': 0.699999988079071, 'precision valid': 0.0, 'recall valid': 0.0, 'F1score valid': 0.0, 'Status OK': 1.0, 'Status PARSE': 0.0, 'Status RUNTIME': 0.0, 'Status WARNING': 0.0}
+[2025-02-18 00:20:45,445][root][INFO] - Verbose output.
+[2025-02-18 00:20:47,050][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-18 00:20:47,050][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-02-18 00:20:55,589][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:00,646][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:09,047][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:14,551][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:17,809][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:21,930][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:27,216][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:32,653][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:37,409][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:42,807][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 00:21:42,938][root][WARNING] - No positive instances have been seen in target. Recall is converted from NaN to 0s.
+[2025-02-18 00:21:42,939][root][WARNING] - Warning: Some classes do not exist in the target. F1 scores for these classes will be cast to zeros.
+[2025-02-18 00:21:42,941][root][WARNING] - No positive instances have been seen in target. Recall is converted from NaN to 0s.
+[2025-02-18 00:21:42,941][root][WARNING] - Warning: Some classes do not exist in the target. F1 scores for these classes will be cast to zeros.
+[2025-02-18 00:21:42,942][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-18 00:21:42,944][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-18 00:21:42,944][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-02-18 00:21:42,945][root][INFO] - {'accuracy': 0.699999988079071, 'precision': 0.0, 'recall': 0.0, 'F1score': 0.0, 'accuracy valid': 0.699999988079071, 'precision valid': 0.0, 'recall valid': 0.0, 'F1score valid': 0.0, 'Status OK': 1.0, 'Status PARSE': 0.0, 'Status RUNTIME': 0.0, 'Status WARNING': 0.0}
+[2025-02-18 12:36:30,659][root][INFO] - Verbose output.
+[2025-02-18 12:36:33,910][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-18 12:36:33,910][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-02-18 12:36:44,682][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 12:39:07,083][root][INFO] - Verbose output.
+[2025-02-18 12:39:08,827][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-18 12:39:08,827][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-02-18 12:39:23,082][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 12:40:43,630][root][INFO] - Verbose output.
+[2025-02-18 12:40:45,384][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-18 12:40:45,384][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-02-18 12:40:52,789][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-02-18 13:56:31,456][root][INFO] - Verbose output.
+[2025-02-18 13:56:33,496][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-18 13:56:33,496][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-02-18 13:56:42,226][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

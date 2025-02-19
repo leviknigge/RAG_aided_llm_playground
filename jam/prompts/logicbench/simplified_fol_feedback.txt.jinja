@@ -1,0 +1,47 @@
+{% extends "qa_prompt.jinja" %}
+{# Example same as Logic-LM #}
+
+{%- macro correct_sample(draft, feedback_message, corrected) -%}
+{{- chat_prompt(start_example)-}}>>> Initial Program:
+Predicates:
+{{draft.predicates}}
+Premises:
+{{draft.premises}}
+Conclusion:
+{{draft.conclusion}}
+>>> Error Message:
+{{feedback_message}}
+>>> Correct Program:
+Predicates:
+{{chat_prompt(end_example)}}{{chat_prompt(seperator)}}{{chat_prompt(start_answer)}}{{corrected.predicates|default(draft.predicates)}}
+Premises:
+{{corrected.premises|default(draft.premises)}}
+Conclusion:
+{{corrected.conclusion|default(draft.conclusion)}}
+----
+{{chat_prompt(end_answer)-}}
+{%- endmacro -%}
+
+{% import 'examples.jinja' as ex %}
+
+{%- block task_description-%}
+Given the wrong FOL formula and the error message, output the correct FOL formula.
+{%- endblock task_description -%}
+
+{%- block few_shot_samples -%}
+{% for example in ex.syntax_errors[:n_samples|default(ex.syntax_errors|length)] %}
+{{- correct_sample(draft=example.draft, feedback_message=example.feedback_message, corrected=example.corrected) -}}
+{{- chat_prompt(seperator) -}}
+{% endfor %}
+{%- endblock few_shot_samples -%}
+
+{%- block infer_prompt -%}
+{{chat_prompt(start_example)}}>>> Initial Program:
+Predicates:
+{{candidate_lf}}
+>>> Error Message:
+{{feedback_message}}
+>>> Correct Program:
+Predicates:
+{{chat_prompt(end_example)}}
+{%- endblock infer_prompt -%}

@@ -1,0 +1,15 @@
+defaults:
+  - /jam/lm/Transformers@_here_
+
+  - _self_
+
+model_name: "google/gemma-2-2b-it"
+# model_name: "google/gemma-2-9b-it"
+# model_name: "google/gemma-2-27b-it"
+
+
+stop_list: 
+  - "----"
+  - "----\n"
+
+max_token: 1024

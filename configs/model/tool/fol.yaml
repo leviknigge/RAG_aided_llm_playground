@@ -1,0 +1,13 @@
+defaults: 
+  - /jam/solver/SolverPipeline@_here_
+
+  - /jam/solver/fol/TPTPParser@parser
+  - /jam/solver/fol/VampireReasoner@solver
+
+
+  - _self_
+
+parser:
+  convert: True
+  simplified: True
+  feedback_msg: False

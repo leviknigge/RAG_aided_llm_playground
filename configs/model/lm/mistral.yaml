@@ -1,0 +1,13 @@
+defaults:
+  - /jam/lm/Transformers@_here_
+
+  - _self_
+
+# model_name: "mistralai/Mistral-Small-Instruct-2409"
+model_name: "mistralai/Mistral-7B-Instruct-v0.3"
+
+stop_list: 
+  - "----"
+  - "----\n"
+
+max_token: 1024
