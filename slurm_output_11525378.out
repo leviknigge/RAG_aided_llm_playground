@@ -1,0 +1,92 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+/var/spool/slurm/slurmd/job11525378/slurm_script: line 19: /home/knigge/.bashrc: No such file or directory
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+index loaded
+Loading searcher for index test for the first time... This may take a few seconds
+[May 02, 13:47:00] #> Loading codec...
+[May 02, 13:47:00] Loading decompress_residuals_cpp extension (set COLBERT_LOAD_TORCH_EXTENSION_VERBOSE=True for more info)...
+Traceback (most recent call last):
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/loadrag.py", line 167, in <module>
+    main()
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/loadrag.py", line 141, in main
+    output,new_data = evaluate(RAG, eval_kb_data, eval_kb_sents, eval_train_data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/loadrag.py", line 112, in evaluate
+    top_sent = retrieve_x(rag_model, x)[0]['content']
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/loadrag.py", line 96, in retrieve_x
+    return rag_model.search(query=queries, k=k)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/ragatouille/RAGPretrainedModel.py", line 315, in search
+    return self.model.search(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/ragatouille/models/colbert.py", line 395, in search
+    results = self.model_index.search(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/ragatouille/models/index.py", line 324, in search
+    self._load_searcher(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/ragatouille/models/index.py", line 258, in _load_searcher
+    self.searcher = Searcher(
+                    ^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/colbert/searcher.py", line 49, in __init__
+    self.ranker = IndexScorer(self.index, use_gpu, load_index_with_mmap)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/colbert/search/index_storage.py", line 22, in __init__
+    super().__init__(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/colbert/search/index_loader.py", line 19, in __init__
+    self._load_codec()
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/colbert/search/index_loader.py", line 27, in _load_codec
+    self.codec = ResidualCodec.load(self.index_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/colbert/indexing/codecs/residual.py", line 148, in load
+    return cls(config=config, centroids=centroids, avg_residual=avg_residual, bucket_cutoffs=bucket_cutoffs, bucket_weights=bucket_weights)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/colbert/indexing/codecs/residual.py", line 24, in __init__
+    ResidualCodec.try_load_torch_extensions(self.use_gpu)
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/colbert/indexing/codecs/residual.py", line 103, in try_load_torch_extensions
+    decompress_residuals_cpp = load(
+                               ^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 1309, in load
+    return _jit_compile(
+           ^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 1719, in _jit_compile
+    _write_ninja_file_and_build_library(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 1809, in _write_ninja_file_and_build_library
+    extra_ldflags = _prepare_ldflags(
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 1901, in _prepare_ldflags
+    if (not os.path.exists(_join_cuda_home(extra_lib_dir)) and
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2419, in _join_cuda_home
+    raise OSError('CUDA_HOME environment variable is not set. '
+OSError: CUDA_HOME environment variable is not set. Please set it to your CUDA install root.
+
+JOB STATISTICS
+==============
+Job ID: 11525378
+Cluster: snellius
+User/Group: lknigge/lknigge
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:10:48 core-walltime
+Job Wall-clock time: 00:00:36
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 120.00 GB (120.00 GB/node)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

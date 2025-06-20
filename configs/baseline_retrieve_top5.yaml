@@ -1,0 +1,28 @@
+defaults:
+  - base_config
+  # - model: baseline
+  - model: langgraph
+  # - model: langgraph_rag
+  # - datasets: logicbench
+  # - datasets: logicbench_baseline
+  - datasets: logicbench_baseline_top5
+  # - datasets: logicbench_rag
+  # - datasets: logicbench_rag_debug
+
+  - _self_
+
+batch_size: 10
+model:
+  lm:
+    run_async: False
+
+verbose: True
+experiment_name: Original_dataset_vanilla
+experiment_description: Experiment on tool-augmented language models.
+# experiment_tracking_uri: http://127.0.0.1:5000
+
+result_dir: /home/lknigge/augmented_llm_playground_fabian/outputs/abducted_baseline_top5_final
+
+hydra:
+  run:
+    dir: /home/lknigge/augmented_llm_playground_fabian/outputs/abducted_baseline_top5_final

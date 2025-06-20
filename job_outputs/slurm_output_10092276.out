@@ -1,0 +1,177 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+# conda environments:
+#
+thesis-env               /home/lknigge/.conda/envs/thesis-env
+base                     /sw/arch/RHEL8/EB_production/2023/software/Anaconda3/2023.07-2
+
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/cuda/__init__.py:619: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/lknigge/augmented_llm_playground_fabian/outputs/debug
+[2025-02-20 13:19:14,484][root][INFO] - Verbose output.
+2025/02/20 13:19:15 WARNING mlflow.system_metrics.system_metrics_monitor: Skip logging GPU metrics because creating `GPUMonitor` failed with error: Failed to initialize NVML, skip logging GPU metrics: Driver Not Loaded.
+2025/02/20 13:19:15 INFO mlflow.system_metrics.system_metrics_monitor: Started monitoring system metrics.
+[2025-02-20 13:19:15,141][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-20 13:19:15,141][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:00<00:00,  6.84it/s]Batches:  50%|█████     | 3/6 [00:00<00:00, 10.24it/s]Batches:  83%|████████▎ | 5/6 [00:00<00:00, 12.51it/s]Batches: 100%|██████████| 6/6 [00:00<00:00, 12.90it/s]
+{'file_name': '/home/lknigge/augmented_llm_playground_fabian/data/LogicBench/abducted_data/binary/fol_eval_debug.jsonl', 'prompt_dir': '/home/lknigge/augmented_llm_playground_fabian/jam/prompts/logicbench', '_target_': 'jam.datasets.LogicBench'}
+/home/lknigge/augmented_llm_playground_fabian
+ok
+/home/lknigge/augmented_llm_playground_fabian/data/LogicBench/abducted_data/binary/fol_eval_debug.jsonl
+test10
+test
+  0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  5.19it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  5.18it/s]
+[2025-02-20 13:19:18,359][openai._base_client][INFO] - Retrying request to /chat/completions in 0.429840 seconds
+[2025-02-20 13:19:18,796][openai._base_client][INFO] - Retrying request to /chat/completions in 0.944165 seconds
+  0%|          | 0/1 [00:01<?, ?it/s]
+2025/02/20 13:19:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+2025/02/20 13:19:19 INFO mlflow.system_metrics.system_metrics_monitor: Stopping system metrics monitoring...
+2025/02/20 13:19:19 INFO mlflow.system_metrics.system_metrics_monitor: Successfully terminated system metrics monitoring!
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 86, in handle_request
+    self._send_request_headers(**kwargs)
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 144, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer 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\r'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1003, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer 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\r'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/evaluate.py", line 130, in main
+    run_evaluation_loop(model, config.datasets[0], config.batch_size)
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/evaluate.py", line 52, in run_evaluation_loop
+    predictions, steps = model.predict(batch["context"], batch["query"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/langgraph_rag.py", line 288, in predict
+    result = self.app.invoke({"context": c, "query": q, })
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/__init__.py", line 2124, in invoke
+    for chunk in self.stream(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/__init__.py", line 1779, in stream
+    for _ in runner.tick(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/runner.py", line 230, in tick
+    run_with_retry(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/retry.py", line 40, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/utils/runnable.py", line 546, in invoke
+    input = step.invoke(input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/utils/runnable.py", line 310, in invoke
+    ret = context.run(self.func, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/langgraph_rag.py", line 189, in generate_draft
+    generated_texts = self.lm.generate(input_texts)[0] # LLM generates list, but intput is only one
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/language_models/open_ai_api.py", line 75, in generate
+    print(client.chat.completions.create(messages = prompt[0], model=self.model_name, max_tokens=self.max_token, temperature=self.temperature, stop=self.stop_list))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_utils/_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 879, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1290, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 967, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1105, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1105, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1037, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+During task with name 'draft' and id 'c54d11e8-2bf8-d54b-6279-2ebd7a6c0ffa'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+srun: error: tcn451: task 0: Exited with exit code 1
+srun: Terminating StepId=10092276.0
+
+JOB STATISTICS
+==============
+Job ID: 10092276
+Cluster: snellius
+User/Group: lknigge/lknigge
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:20
+CPU Efficiency: 3.05% of 00:10:56 core-walltime
+Job Wall-clock time: 00:00:41
+Memory Utilized: 2.24 MB
+Memory Efficiency: 0.01% of 28.00 GB

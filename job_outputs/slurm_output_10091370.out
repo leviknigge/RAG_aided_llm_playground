@@ -1,0 +1,55 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+# conda environments:
+#
+thesis-env               /home/lknigge/.conda/envs/thesis-env
+base                     /sw/arch/RHEL8/EB_production/2023/software/Anaconda3/2023.07-2
+
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/cuda/__init__.py:619: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+[2025-02-20 11:47:10,044][root][INFO] - Verbose output.
+2025/02/20 11:47:10 WARNING mlflow.system_metrics.system_metrics_monitor: Skip logging GPU metrics because creating `GPUMonitor` failed with error: Failed to initialize NVML, skip logging GPU metrics: Driver Not Loaded.
+2025/02/20 11:47:10 INFO mlflow.system_metrics.system_metrics_monitor: Started monitoring system metrics.
+[2025-02-20 11:47:10,171][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-20 11:47:10,171][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:00<00:01,  2.82it/s]Batches:  50%|█████     | 3/6 [00:00<00:00,  6.56it/s]Batches:  83%|████████▎ | 5/6 [00:00<00:00,  9.53it/s]Batches: 100%|██████████| 6/6 [00:00<00:00,  8.98it/s]
+2025/02/20 11:47:13 INFO mlflow.system_metrics.system_metrics_monitor: Stopping system metrics monitoring...
+2025/02/20 11:47:13 INFO mlflow.system_metrics.system_metrics_monitor: Successfully terminated system metrics monitoring!
+{'file_name': '${oc.env:PROJECT_ROOT}/data/LogicBench/abducted_data/binary/fol_eval_debug.jsonl', 'prompt_dir': '${oc.env:PROJECT_ROOT}/jam/prompts/logicbench', '_target_': 'jam.datasets.LogicBench'}
+Error executing job with overrides: []
+Error in call to target 'jam.datasets.logicbench.LogicBench':
+FileNotFoundError(2, 'No such file or directory')
+full_key: datasets0
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+srun: error: tcn337: task 0: Exited with exit code 1
+srun: Terminating StepId=10091370.0
+
+JOB STATISTICS
+==============
+Job ID: 10091370
+Cluster: snellius
+User/Group: lknigge/lknigge
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:15
+CPU Efficiency: 2.60% of 00:09:36 core-walltime
+Job Wall-clock time: 00:00:36
+Memory Utilized: 2.12 MB
+Memory Efficiency: 0.01% of 28.00 GB

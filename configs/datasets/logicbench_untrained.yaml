@@ -1,0 +1,3 @@
+- _target_: jam.datasets.LogicBench
+  file_name: /home/lknigge/augmented_llm_playground_fabian/data/LogicBench/retrieved_data/binary/untrained_retrieve.jsonl
+  prompt_dir: /home/lknigge/augmented_llm_playground_fabian/jam/prompts/logicbench

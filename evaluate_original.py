@@ -87,8 +87,8 @@ class Config:
     release_version: str = "0.1"
     experiment_tracking_uri: str =  "file:///${result_dir}/mlruns"
 
-# @hydra.main(version_base=None, config_path="configs", config_name="eval")
-@hydra.main(version_base=None, config_path="configs", config_name="debug")
+@hydra.main(version_base=None, config_path="configs", config_name="original")
+# @hydra.main(version_base=None, config_path="configs", config_name="debug")
 def main(config: Config) -> None:
     """Evaluate a tool-augmented language model. 
 

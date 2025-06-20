@@ -1,0 +1,193 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+# conda environments:
+#
+thesis-env               /home/lknigge/.conda/envs/thesis-env
+base                     /sw/arch/RHEL8/EB_production/2023/software/Anaconda3/2023.07-2
+
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/cuda/__init__.py:619: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/lknigge/augmented_llm_playground_fabian/outputs/debug
+[2025-02-20 12:33:11,888][root][INFO] - Verbose output.
+2025/02/20 12:33:12 WARNING mlflow.system_metrics.system_metrics_monitor: Skip logging GPU metrics because creating `GPUMonitor` failed with error: Failed to initialize NVML, skip logging GPU metrics: Driver Not Loaded.
+2025/02/20 12:33:12 INFO mlflow.system_metrics.system_metrics_monitor: Started monitoring system metrics.
+[2025-02-20 12:33:12,159][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-20 12:33:12,159][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:04<00:23,  4.68s/it]Batches:  50%|█████     | 3/6 [00:04<00:03,  1.27s/it]Batches:  83%|████████▎ | 5/6 [00:04<00:00,  1.54it/s]Batches: 100%|██████████| 6/6 [00:04<00:00,  1.20it/s]
+{'file_name': '/home/lknigge/augmented_llm_playground_fabian/data/LogicBench/abducted_data/binary/fol_eval_debug.jsonl', 'prompt_dir': '/home/lknigge/augmented_llm_playground_fabian/jam/prompts/logicbench', '_target_': 'jam.datasets.LogicBench'}
+/home/lknigge/augmented_llm_playground_fabian
+ok
+/home/lknigge/augmented_llm_playground_fabian/data/LogicBench/abducted_data/binary/fol_eval_debug.jsonl
+test10
+test
+  0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 17.22it/s]
+[{'role': 'system', 'content': 'Task Description: Given a problem description and a question. The task is to parse the problem and the question into first-order logic formulars. Follow exactly the given structure.\nThe grammar of the first-order logic formular is defined as follows:\n1) logical conjunction of expr1 and expr2: expr1 ∧ expr2\n2) logical disjunction of expr1 and expr2: expr1 ∨ expr2\n3) logical exclusive disjunction of expr1 and expr2: expr1 ⊕ expr2\n4) logical negation of expr1: ¬expr1\n5) expr1 implies expr2: expr1 → expr2\n6) expr1 if and only if expr2: expr1 ↔ expr2\n7) logical universal quantification: ∀x\n8) logical existential quantification: ∃x\n----\n'}, {'role': 'user', 'content': 'Problem: If someone walks in the rain, they will get wet. Conversely, if someone exercises a lot, they will get fit. It is known that at least one of the following statements is true: (1) either John walks in the rain and (2) he will not get fit. It is possible that solely (1) is true, or solely (2) is true, or even both are true simultaneously.\nQuestion: Can we say at least one of the following must always be true? (a) he will get wet and (b) he does not exercises a lot?\nPredicates:\n'}, {'role': 'assistant', 'content': 'WalksInRain(x) ::: x walks in the rain.\nGetWet(x) ::: x gets wet.\nExercisesALot(x) ::: x exercises a lot.\nGetFit(x) ::: x gets fit.\nPremises:\n∀x (WalksInRain(x) → GetWet(x)) ::: If someone walks in the rain, they will get wet.\n∀x (ExercisesALot(x) → GetFit(x)) ::: If someone exercises a lot, they will get fit.\n(WalksInRain(john) ∨ ¬GetFit(john)) ::: John walks in the rain or he will not get fit.\nConclusion:\nGetWet(john) ∨ ¬ExercisesALot(john) ::: John will get wet or he does not exercises a lot.\n----\n'}, {'role': 'user', 'content': 'Problem: If a person leaves late, they will miss their train. In this particular situation, James left late.\nQuestion: Does this entail that he will not miss his train?\nPredicates:\n'}, {'role': 'assistant', 'content': 'LeaveLate(x) ::: x leaves late.\nMissTrain(x) ::: x misses their train.\nPremises:\n∀x (LeaveLate(x) → MissTrain(x)) ::: If a person leaves late, they will miss their train.\nLeaveLate(james) ::: James leavs late.\nConclusion:\n¬MissTrain(james) ::: James does not miss his train.\n----\n'}, {'role': 'user', 'content': 'Problem: It is known that one of the following options is true: someone goes to the office or someone goes home. However, Jill does not go to the office.\nQuestion: Does this imply that Jill goes home?\nPredicates:\n'}, {'role': 'assistant', 'content': 'GoesToOffice(x) ::: x goes to the office.\nGoesHome(x) ::: x goes home.\nPremises:\n∀x (GoesToOffice(x) ∨ GoesHome(x)) ::: Either someone goes to the office or someone goes home.\n¬GoesToOffice(jill) ::: Jill does not go to the office.\nConclusion:\nGoesHome(jill) ::: Jill goes home.\n----\n'}, {'role': 'user', 'content': "Problem: If an individual consumes a significant amount of water, they will experience a state of hydration. Conversely, if excessive amounts of sugar are ingested, a sugar crash will ensue. It is known that at least one of the following statements is true: either the Jane consumes ample water or she will not experience a sugar crash. It is uncertain which of the following statements is true: either Jill will not feel full or she will not save money.\nQuestion: Can we say at least one of the following must always be true? (a) she will feel hydrated and (b) she doesn't eat too much sugar\nPredicates:\n"}]
+[2025-02-20 12:33:19,047][openai._base_client][INFO] - Retrying request to /chat/completions in 0.384187 seconds
+[2025-02-20 12:33:19,438][openai._base_client][INFO] - Retrying request to /chat/completions in 0.852311 seconds
+  0%|          | 0/1 [00:01<?, ?it/s]
+2025/02/20 12:33:20 INFO mlflow.system_metrics.system_metrics_monitor: Stopping system metrics monitoring...
+2025/02/20 12:33:20 INFO mlflow.system_metrics.system_metrics_monitor: Successfully terminated system metrics monitoring!
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 86, in handle_request
+    self._send_request_headers(**kwargs)
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 144, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer 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\r'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1003, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer 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\r'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/evaluate.py", line 130, in main
+    run_evaluation_loop(model, config.datasets[0], config.batch_size)
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/evaluate.py", line 52, in run_evaluation_loop
+    predictions, steps = model.predict(batch["context"], batch["query"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/langgraph_rag.py", line 286, in predict
+    result = self.app.invoke({"context": c, "query": q, })
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/__init__.py", line 2124, in invoke
+    for chunk in self.stream(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/__init__.py", line 1779, in stream
+    for _ in runner.tick(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/runner.py", line 230, in tick
+    run_with_retry(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/retry.py", line 40, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/utils/runnable.py", line 546, in invoke
+    input = step.invoke(input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/utils/runnable.py", line 310, in invoke
+    ret = context.run(self.func, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/langgraph_rag.py", line 188, in generate_draft
+    generated_texts = mlflow.trace(self.lm.generate,span_type="LLM")(input_texts)[0] # LLM generates list, but intput is only one
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/mlflow/tracing/fluent.py", line 174, in wrapper
+    with _WrappingContext(fn, args, kwargs) as wrapping_coro:
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/mlflow/tracing/fluent.py", line 162, in __exit__
+    self.coro.throw(exc_type, exc_value, traceback)
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/mlflow/tracing/fluent.py", line 145, in _wrapping_logic
+    result = yield  # sync/async function output to be sent here
+             ^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/mlflow/tracing/fluent.py", line 175, in wrapper
+    return wrapping_coro.send(fn(*args, **kwargs))
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/language_models/open_ai_api.py", line 76, in generate
+    print(self.create_fn(messages = prompt[0], client=client))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/backoff/_sync.py", line 105, in retry
+    ret = target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/language_models/open_ai_api.py", line 46, in <lambda>
+    self.create_fn = backoff.on_exception(backoff.expo, openai.RateLimitError, max_time=100, jitter=backoff.full_jitter,)( lambda messages, client : client.chat.completions.create(messages=messages, model=self.model_name, max_tokens=self.max_token, temperature=self.temperature, stop=self.stop_list))
+                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_utils/_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 879, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1290, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 967, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1105, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1105, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 1037, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+During task with name 'draft' and id 'a161c31b-8200-3dcc-0b3e-208c1b82ed10'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+2025/02/20 12:33:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+srun: error: tcn111: task 0: Exited with exit code 1
+srun: Terminating StepId=10091781.0
+
+JOB STATISTICS
+==============
+Job ID: 10091781
+Cluster: snellius
+User/Group: lknigge/lknigge
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:17
+CPU Efficiency: 2.26% of 00:12:32 core-walltime
+Job Wall-clock time: 00:00:47
+Memory Utilized: 8.07 MB
+Memory Efficiency: 0.03% of 28.00 GB

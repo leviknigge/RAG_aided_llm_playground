@@ -1,0 +1,1094 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+/var/spool/slurm/slurmd/job11560872/slurm_script: line 19: /home/knigge/.bashrc: No such file or directory
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     /home/lknigge/nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+[2025-05-04 16:33:29,101][root][INFO] - Verbose output.
+2025/05/04 16:33:29 INFO mlflow.tracking.fluent: Experiment with name 'Original_dataset_vanilla' does not exist. Creating a new experiment.
+2025/05/04 16:33:29 INFO mlflow.system_metrics.system_metrics_monitor: Started monitoring system metrics.
+  0%|          | 0/52 [00:00<?, ?it/s][2025-05-04 16:33:34,732][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/json/encoder.py:258: LangChainDeprecationWarning: As of langchain-core 0.3.0, LangChain uses pydantic v2 internally. The langchain_core.pydantic_v1 module was a compatibility shim for pydantic v1, and should no longer be used. Please update the code to import from Pydantic directly.
+
+For example, replace imports like: `from langchain_core.pydantic_v1 import BaseModel`
+with: `from pydantic import BaseModel`
+or the v1 compatibility namespace if you are working in a code base that has not been fully upgraded to pydantic 2 yet. 	from pydantic.v1 import BaseModel
+
+  return _iterencode(o, 0)
+2025/05/04 16:33:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:33:40,042][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:33:40 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:33:42,897][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:33:42 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:33:45,967][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:33:46 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:33:49,815][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:33:49 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:33:53,495][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:33:53 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:33:56,679][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:33:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:01,106][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:01 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:06,059][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:11,403][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+  2%|▏         | 1/52 [00:42<35:48, 42.13s/it][2025-05-04 16:34:16,983][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:21,404][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:25,306][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:29,590][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:29 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:32,790][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:32 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:37,042][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:37 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:40,743][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:40 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:44,151][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:47,440][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:50,816][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:50 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+  4%|▍         | 2/52 [01:21<33:46, 40.53s/it][2025-05-04 16:34:54,705][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:34:58,162][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:34:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:01,649][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:01 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:06,689][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:11,194][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:16,063][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:19,544][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:24,276][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:24 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:29,065][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:29 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:32,858][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:32 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+  6%|▌         | 3/52 [02:03<33:39, 41.21s/it][2025-05-04 16:35:36,714][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:43,993][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:47,778][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:54,696][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:35:58,133][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:35:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:01,479][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:01 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:04,974][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:05 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:09,008][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:09 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:12,151][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:12 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:15,511][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:15 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+  8%|▊         | 4/52 [02:46<33:25, 41.78s/it][2025-05-04 16:36:20,901][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:20 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:26,048][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:26 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:29,664][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:29 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:33,307][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:33 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:38,198][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:42,208][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:42 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:46,027][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:46 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:50,436][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:50 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:36:56,056][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:36:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:00,210][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:00 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 10%|▉         | 5/52 [03:30<33:33, 42.83s/it][2025-05-04 16:37:03,767][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:08,775][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:08 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:12,846][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:12 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:17,345][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:21,883][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:25,784][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:31,137][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:31 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:34,766][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:34 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:37,392][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:37 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:41,246][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:41 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 12%|█▏        | 6/52 [04:11<32:22, 42.22s/it][2025-05-04 16:37:45,808][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:45 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:50,049][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:50 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:53,058][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:53 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:56,050][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:37:59,761][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:37:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:03,446][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:06,612][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:09,680][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:09 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:14,708][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:20,530][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:20 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 13%|█▎        | 7/52 [04:51<30:56, 41.26s/it][2025-05-04 16:38:23,789][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:23 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:29,427][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:29 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:34,055][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:34 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:38,020][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:41,583][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:41 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:46,973][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:50,653][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:50 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:54,237][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:38:58,195][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:38:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:02,141][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:02 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 15%|█▌        | 8/52 [05:32<30:20, 41.37s/it][2025-05-04 16:39:05,646][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:05 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:09,035][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:09 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:12,139][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:12 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:15,805][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:15 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:20,677][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:20 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:25,174][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:29,152][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:29 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:33,650][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:33 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:38,630][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:45,626][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:45 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 17%|█▋        | 9/52 [06:16<30:07, 42.03s/it][2025-05-04 16:39:49,811][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:49 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:54,639][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:39:58,299][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:39:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:03,688][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:06,757][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:09,882][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:09 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:13,312][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:13 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:17,230][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:23,878][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:23 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:29,185][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:29 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 19%|█▉        | 10/52 [06:59<29:45, 42.50s/it][2025-05-04 16:40:32,810][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:32 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:40,166][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:40 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:44,068][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:49,476][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:49 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:53,675][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:53 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:40:58,809][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:40:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:04,735][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:04 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:09,284][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:09 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:13,787][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:13 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:16,773][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 21%|██        | 11/52 [07:47<30:06, 44.06s/it][2025-05-04 16:41:23,387][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:23 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:26,910][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:26 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:31,099][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:31 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:35,683][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:35 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:39,414][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:39 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:43,742][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:43 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:47,708][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:51,285][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:51 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:41:55,967][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:41:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:01,466][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:01 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 23%|██▎       | 12/52 [08:32<29:30, 44.25s/it][2025-05-04 16:42:07,437][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:11,798][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:16,260][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:19,794][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:24,248][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:24 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:29,163][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:29 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:33,814][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:33 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:39,492][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:39 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:44,423][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:48,423][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:48 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 25%|██▌       | 13/52 [09:19<29:18, 45.08s/it][2025-05-04 16:42:52,506][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:52 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:42:56,637][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:42:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:00,073][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:00 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:04,394][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:04 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:10,567][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:10 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:14,265][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:17,671][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:21,541][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:25,634][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:29,212][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:29 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 27%|██▋       | 14/52 [09:59<27:43, 43.78s/it][2025-05-04 16:43:33,441][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:33 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:38,981][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:39 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:42,831][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:42 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:47,743][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:55,351][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:43:59,062][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:43:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:03,274][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:07,103][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:11,910][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:16,428][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 29%|██▉       | 15/52 [10:47<27:38, 44.81s/it][2025-05-04 16:44:20,627][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:20 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:24,676][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:24 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:28,813][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:32,652][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:32 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:37,861][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:37 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:43,369][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:43 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:47,729][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:50,477][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:50 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:53,116][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:53 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:44:56,591][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:44:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 31%|███       | 16/52 [11:27<26:02, 43.41s/it][2025-05-04 16:45:00,488][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:00 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:06,954][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:10,334][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:10 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:14,499][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:18,292][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:18 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:22,347][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:22 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:25,841][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:29,594][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:29 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:32,911][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:32 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:36,279][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 33%|███▎      | 17/52 [12:06<24:40, 42.29s/it][2025-05-04 16:45:40,544][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:40 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:44,869][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:48,936][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:48 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:54,533][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:45:58,659][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:45:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:06,207][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:10,406][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:10 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:14,935][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:19,228][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:27,089][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:27 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 35%|███▍      | 18/52 [12:57<25:25, 44.85s/it][2025-05-04 16:46:30,635][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:34,361][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:34 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:38,242][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:43,201][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:43 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:46,920][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:46 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:51,525][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:51 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:54,979][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:46:58,119][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:46:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:03,554][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:07,639][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 37%|███▋      | 19/52 [13:38<23:57, 43.56s/it][2025-05-04 16:47:13,582][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:13 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:17,743][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:23,523][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:23 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:26,340][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:26 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:30,652][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:36,596][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:40,787][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:40 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:44,833][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:48,958][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:48 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:53,237][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:53 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 38%|███▊      | 20/52 [14:23<23:33, 44.18s/it][2025-05-04 16:47:56,160][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:47:59,437][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:47:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:02,232][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:02 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:04,953][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:04 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:08,332][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:08 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:14,087][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:17,781][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:21,284][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:24,670][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:24 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:28,746][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 40%|████      | 21/52 [14:59<21:28, 41.57s/it][2025-05-04 16:48:34,386][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:34 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:37,895][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:37 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:42,889][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:42 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:47,233][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:52,515][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:52 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:48:57,339][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:48:57 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:00,667][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:00 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:04,192][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:04 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:07,903][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:11,494][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 42%|████▏     | 22/52 [15:42<20:57, 41.92s/it][2025-05-04 16:49:14,612][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:17,678][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:23,463][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:23 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:26,970][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:27 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:31,132][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:31 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:34,263][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:34 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:39,899][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:39 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:43,516][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:43 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:49,270][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:49 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:49:54,397][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 44%|████▍     | 23/52 [16:25<20:24, 42.22s/it][2025-05-04 16:49:58,591][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:49:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:02,695][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:02 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:07,179][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:10,543][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:10 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:15,932][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:15 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:20,197][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:20 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:24,023][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:24 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:28,774][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:31,681][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:31 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:35,984][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 46%|████▌     | 24/52 [17:06<19:36, 42.03s/it][2025-05-04 16:50:39,302][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:39 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:41,521][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:41 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:43,110][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:43 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:44,889][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:47,623][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:51,386][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:51 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:50:53,531][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:50:53 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:00,811][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:00 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:02,694][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:02 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:04,686][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:04 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 48%|████▊     | 25/52 [17:35<17:06, 38.03s/it][2025-05-04 16:51:07,217][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:09,191][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:09 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:11,514][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:14,092][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:16,900][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:19,032][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:22,581][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:22 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:24,972][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:27,711][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:27 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:30,560][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 50%|█████     | 26/52 [18:01<14:53, 34.38s/it][2025-05-04 16:51:32,977][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:33 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:36,327][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:38,479][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:41,061][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:41 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:43,425][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:43 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:45,733][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:45 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:48,919][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:48 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:54,220][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:56,467][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:51:58,752][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:51:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 52%|█████▏    | 27/52 [18:29<13:33, 32.52s/it][2025-05-04 16:52:01,205][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:01 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:04,113][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:04 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:11,637][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:14,089][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:15,986][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:18,063][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:18 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:21,288][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:24,788][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:24 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:26,771][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:26 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:28,745][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 54%|█████▍    | 28/52 [18:59<12:42, 31.77s/it][2025-05-04 16:52:31,178][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:31 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:36,500][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:38,333][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:40,665][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:40 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:42,118][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:42 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:44,130][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:46,234][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:46 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:48,496][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:48 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:50,506][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:50 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:52,550][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+line 8:25 token recognition error at: '≠'
+2025/05/04 16:52:52 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 56%|█████▌    | 29/52 [19:23<11:15, 29.37s/it][2025-05-04 16:52:55,801][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:52:59,595][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:52:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:01,764][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:01 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:05,531][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:05 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:07,152][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:08,803][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:08 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:10,500][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:10 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:12,007][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:12 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:13,925][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:13 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:17,099][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 58%|█████▊    | 30/52 [19:47<10:14, 27.93s/it][2025-05-04 16:53:19,332][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:21,373][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+line 8:19 token recognition error at: '≠'
+2025/05/04 16:53:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:23,614][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:23 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:26,376][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+line 7:23 token recognition error at: '≠'
+2025/05/04 16:53:26 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:28,752][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:30,735][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:32,824][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:32 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:35,761][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:35 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:39,237][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:39 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:41,670][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:41 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 60%|█████▉    | 31/52 [20:12<09:25, 26.92s/it][2025-05-04 16:53:44,064][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:46,649][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:46 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:49,513][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:49 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:51,618][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:51 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:53,265][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:53 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:55,623][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:57,028][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:57 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:53:59,497][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:53:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:03,091][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:05,190][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:05 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 62%|██████▏   | 32/52 [20:35<08:38, 25.90s/it][2025-05-04 16:54:07,830][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:10,931][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:10 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:14,653][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:18,611][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:18 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:21,120][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:24,074][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:24 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:28,655][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:31,194][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:31 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:38,840][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:42,768][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:42 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 63%|██████▎   | 33/52 [21:13<09:18, 29.41s/it][2025-05-04 16:54:49,301][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:49 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:55,075][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:54:59,145][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:54:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:02,321][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:02 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:05,532][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:05 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:08,924][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:08 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:12,064][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:12 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:14,967][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:15 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:18,436][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:18 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:21,209][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 65%|██████▌   | 34/52 [21:51<09:38, 32.12s/it][2025-05-04 16:55:27,673][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:27 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:33,715][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:33 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:36,610][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:40,800][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:40 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:44,628][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:47,566][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:54,750][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:55:57,676][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:55:57 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:00,275][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:00 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:03,488][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 67%|██████▋   | 35/52 [22:34<09:57, 35.17s/it][2025-05-04 16:56:06,384][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:10,203][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:10 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:13,203][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:13 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:15,889][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:15 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:18,025][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:18 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:21,447][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:21 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:25,087][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:27,918][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:27 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:30,625][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:33,985][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:34 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 69%|██████▉   | 36/52 [23:04<09:00, 33.76s/it][2025-05-04 16:56:38,066][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:42,215][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:42 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:45,603][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:45 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:49,121][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:49 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:51,799][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:51 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:55,885][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:56:59,379][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:56:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:03,635][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:06,694][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:09,718][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:09 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 71%|███████   | 37/52 [23:40<08:35, 34.35s/it][2025-05-04 16:57:12,073][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:12 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:14,504][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:17,598][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:19,853][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:22,260][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:22 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:25,845][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:28,358][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:31,035][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:31 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:34,586][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:34 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:37,177][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:37 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 73%|███████▎  | 38/52 [24:07<07:32, 32.29s/it][2025-05-04 16:57:45,720][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:45 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:48,497][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:48 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:50,465][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:50 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:52,818][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:52 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:55,563][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:57:59,727][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:57:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:03,918][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:07,900][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:11,162][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:14,197][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 75%|███████▌  | 39/52 [24:44<07:18, 33.71s/it][2025-05-04 16:58:16,778][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:19,963][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:23,040][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:23 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:30,313][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:32,934][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:32 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:35,987][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:39,056][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:39 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:45,165][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:45 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:47,499][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:51,397][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:51 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 77%|███████▋  | 40/52 [25:22<06:57, 34.75s/it][2025-05-04 16:58:53,518][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:53 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:55,494][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:58:57,838][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:58:57 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:00,025][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:00 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:01,675][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:01 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:03,274][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:05,212][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:05 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:07,278][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:09,129][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:09 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:11,346][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 79%|███████▉  | 41/52 [25:42<05:33, 30.31s/it][2025-05-04 16:59:14,068][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:16,115][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:18,311][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:18 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:20,553][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:20 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:22,274][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:22 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:24,066][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:24 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:26,160][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:26 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:28,263][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:30,587][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:32,849][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:32 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 81%|████████  | 42/52 [26:03<04:36, 27.67s/it][2025-05-04 16:59:35,129][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:35 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:37,468][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:37 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:39,413][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:39 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:41,549][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:41 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:46,688][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:46 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:49,143][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:49 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:52,004][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:52 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:53,969][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:56,013][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 16:59:58,487][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 16:59:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 83%|████████▎ | 43/52 [26:29<04:03, 27.06s/it][2025-05-04 17:00:01,904][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:01 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:04,638][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:04 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:07,316][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:09,869][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:09 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:12,378][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:12 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:14,958][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:19,213][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:23,231][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:23 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:25,590][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:27,857][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:27 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 85%|████████▍ | 44/52 [26:58<03:42, 27.75s/it][2025-05-04 17:00:30,615][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:33,034][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:33 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:36,470][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:39,337][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:39 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:42,321][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:42 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:45,177][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:45 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:47,915][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:50,284][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:50 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:52,853][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:52 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:00:55,543][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 87%|████████▋ | 45/52 [27:26<03:14, 27.77s/it][2025-05-04 17:00:59,729][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:00:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:02,694][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:02 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:06,362][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:10,122][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:10 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:13,521][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:13 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:16,656][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:20,186][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:20 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:22,621][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:22 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:30,168][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:33,658][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:33 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 88%|████████▊ | 46/52 [28:04<03:05, 30.83s/it][2025-05-04 17:01:36,205][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:38,679][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:41,334][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:41 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:44,169][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:47,380][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:50,502][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:50 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:53,050][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:53 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:55,458][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:01:57,675][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:01:57 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:00,183][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:00 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 90%|█████████ | 47/52 [28:30<02:27, 29.54s/it][2025-05-04 17:02:03,690][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:03 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:06,040][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:11,270][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:14,007][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:17,807][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:20,133][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:20 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:22,290][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:22 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:25,374][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:25 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:27,977][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:30,214][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:30 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 92%|█████████▏| 48/52 [29:00<01:58, 29.69s/it][2025-05-04 17:02:32,137][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:32 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:36,197][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:38,940][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:41,499][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:41 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:44,287][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:46,256][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:46 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:49,394][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:49 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:52,106][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:52 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:54,453][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:54 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:02:56,673][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:56 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 94%|█████████▍| 49/52 [29:27<01:26, 28.72s/it][2025-05-04 17:02:59,949][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:02:59 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:02,043][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:02 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:04,902][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:04 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:08,674][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:08 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:11,743][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:11 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:14,534][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:17,305][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:17 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:19,447][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:19 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:22,300][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:22 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:24,866][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:24 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 96%|█████████▌| 50/52 [29:55<00:57, 28.56s/it][2025-05-04 17:03:26,704][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:26 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:28,531][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:28 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:34,199][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:34 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:36,234][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:36 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:38,663][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:38 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:41,212][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:41 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:43,199][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:43 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:44,570][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:44 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:47,064][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:47 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:48,862][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:48 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+ 98%|█████████▊| 51/52 [30:19<00:27, 27.19s/it][2025-05-04 17:03:51,381][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:51 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:55,673][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:55 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:03:58,046][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:03:58 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:04:04,162][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:04:04 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:04:06,158][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:04:06 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:04:07,844][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:04:07 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:04:10,171][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:04:10 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:04:11,996][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:04:12 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:04:14,017][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:04:14 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+[2025-05-04 17:04:16,028][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025/05/04 17:04:16 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+100%|██████████| 52/52 [30:46<00:00, 27.18s/it]100%|██████████| 52/52 [30:46<00:00, 35.51s/it]
+[2025-05-04 17:04:16,141][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-05-04 17:04:16,141][root][WARNING] - No calls to update() have been made - returning 0.0
+[2025-05-04 17:04:16,141][root][INFO] - {'accuracy': 0.8673076629638672, 'precision': 0.7777777910232544, 'recall': 0.8284023404121399, 'F1score': 0.8022922277450562, 'accuracy valid': 0.867850124835968, 'precision valid': 0.7865168452262878, 'recall valid': 0.8284023404121399, 'F1score valid': 0.8069164156913757, 'Status OK': 0.975, 'Status PARSE': 0.025, 'Status RUNTIME': 0.0, 'Status WARNING': 0.0}
+2025/05/04 17:04:17 INFO mlflow.system_metrics.system_metrics_monitor: Stopping system metrics monitoring...
+2025/05/04 17:04:17 INFO mlflow.system_metrics.system_metrics_monitor: Successfully terminated system metrics monitoring!
+/home/lknigge/augmented_llm_playground_fabian/outputs/original_vanilla_final/fol_eval.jsonl
+
+JOB STATISTICS
+==============
+Job ID: 11560872
+Cluster: snellius
+User/Group: lknigge/lknigge
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 09:23:06 core-walltime
+Job Wall-clock time: 00:31:17
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 120.00 GB (120.00 GB/node)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

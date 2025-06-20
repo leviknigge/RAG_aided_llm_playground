@@ -1,0 +1,111 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+# conda environments:
+#
+thesis-env               /home/lknigge/.conda/envs/thesis-env
+base                     /sw/arch/RHEL8/EB_production/2023/software/Anaconda3/2023.07-2
+
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/cuda/__init__.py:619: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/lknigge/augmented_llm_playground_fabian/outputs/debug
+[2025-02-20 12:16:23,117][root][INFO] - Verbose output.
+2025/02/20 12:16:23 WARNING mlflow.system_metrics.system_metrics_monitor: Skip logging GPU metrics because creating `GPUMonitor` failed with error: Failed to initialize NVML, skip logging GPU metrics: Driver Not Loaded.
+2025/02/20 12:16:23 INFO mlflow.system_metrics.system_metrics_monitor: Started monitoring system metrics.
+[2025-02-20 12:16:23,240][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cpu
+[2025-02-20 12:16:23,240][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:01<00:06,  1.21s/it]Batches:  50%|█████     | 3/6 [00:01<00:01,  2.67it/s]Batches:  83%|████████▎ | 5/6 [00:01<00:00,  4.70it/s]Batches: 100%|██████████| 6/6 [00:01<00:00,  3.93it/s]
+{'file_name': '/home/lknigge/augmented_llm_playground_fabian/data/LogicBench/abducted_data/binary/fol_eval_debug.jsonl', 'prompt_dir': '/home/lknigge/augmented_llm_playground_fabian/jam/prompts/logicbench', '_target_': 'jam.datasets.LogicBench'}
+/home/lknigge/augmented_llm_playground_fabian
+ok
+/home/lknigge/augmented_llm_playground_fabian/data/LogicBench/abducted_data/binary/fol_eval_debug.jsonl
+test10
+test
+  0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 10.26it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]
+2025/02/20 12:16:26 WARNING mlflow.tracing.export.mlflow: Failed to log trace to MLflow backend. Error: [Errno 13] Permission denied: '/lknigge'. For full traceback, set logging level to debug.
+2025/02/20 12:16:27 INFO mlflow.system_metrics.system_metrics_monitor: Stopping system metrics monitoring...
+2025/02/20 12:16:27 INFO mlflow.system_metrics.system_metrics_monitor: Successfully terminated system metrics monitoring!
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/evaluate.py", line 130, in main
+    run_evaluation_loop(model, config.datasets[0], config.batch_size)
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/evaluate.py", line 52, in run_evaluation_loop
+    predictions, steps = model.predict(batch["context"], batch["query"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/langgraph_rag.py", line 286, in predict
+    result = self.app.invoke({"context": c, "query": q, })
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/__init__.py", line 2124, in invoke
+    for chunk in self.stream(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/__init__.py", line 1779, in stream
+    for _ in runner.tick(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/runner.py", line 230, in tick
+    run_with_retry(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/pregel/retry.py", line 40, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/utils/runnable.py", line 546, in invoke
+    input = step.invoke(input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/langgraph/utils/runnable.py", line 310, in invoke
+    ret = context.run(self.func, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/langgraph_rag.py", line 188, in generate_draft
+    generated_texts = mlflow.trace(self.lm.generate,span_type="LLM")(input_texts)[0] # LLM generates list, but intput is only one
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/mlflow/tracing/fluent.py", line 174, in wrapper
+    with _WrappingContext(fn, args, kwargs) as wrapping_coro:
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/mlflow/tracing/fluent.py", line 162, in __exit__
+    self.coro.throw(exc_type, exc_value, traceback)
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/mlflow/tracing/fluent.py", line 145, in _wrapping_logic
+    result = yield  # sync/async function output to be sent here
+             ^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/mlflow/tracing/fluent.py", line 175, in wrapper
+    return wrapping_coro.send(fn(*args, **kwargs))
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/jam/language_models/open_ai_api.py", line 73, in generate
+    client = self.client()
+             ^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+During task with name 'draft' and id 'fcce721e-3edc-9537-9343-f7307168e90f'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+srun: error: tcn442: task 0: Exited with exit code 1
+srun: Terminating StepId=10091678.0
+
+JOB STATISTICS
+==============
+Job ID: 10091678
+Cluster: snellius
+User/Group: lknigge/lknigge
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:24
+CPU Efficiency: 3.66% of 00:10:56 core-walltime
+Job Wall-clock time: 00:00:41
+Memory Utilized: 2.04 MB
+Memory Efficiency: 0.01% of 28.00 GB

@@ -15,4 +15,4 @@ stop_list:
   - "----\n"
 
 max_token: 1024
-run_async: True
+# run_async: True

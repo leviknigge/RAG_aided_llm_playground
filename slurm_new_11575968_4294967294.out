@@ -1,0 +1,86 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+/var/spool/slurm/slurmd/job11575968/slurm_script: line 18: /home/knigge/.bashrc: No such file or directory
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/cuda/__init__.py:619: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[May 05, 15:22:29] Loading segmented_maxsim_cpp extension (set COLBERT_LOAD_TORCH_EXTENSION_VERBOSE=True for more info)...
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/amp/grad_scaler.py:131: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+index loaded
+Loading searcher for index test for the first time... This may take a few seconds
+[May 05, 15:22:29] #> Loading codec...
+[May 05, 15:22:29] #> Loading IVF...
+[May 05, 15:22:29] Loading segmented_lookup_cpp extension (set COLBERT_LOAD_TORCH_EXTENSION_VERBOSE=True for more info)...
+[May 05, 15:22:29] #> Loading doclens...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 3097.71it/s]
+[May 05, 15:22:29] #> Loading codes and residuals...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 879.49it/s]
+[May 05, 15:22:29] Loading filter_pids_cpp extension (set COLBERT_LOAD_TORCH_EXTENSION_VERBOSE=True for more info)...
+[May 05, 15:22:29] Loading decompress_residuals_cpp extension (set COLBERT_LOAD_TORCH_EXTENSION_VERBOSE=True for more info)...
+/home/lknigge/.conda/envs/thesis-env/lib/python3.12/site-packages/torch/amp/autocast_mode.py:250: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Searcher loaded!
+
+#> QueryTokenizer.tensorize(batch_text[0], batch_background[0], bsize) ==
+#> Input: If an individual consumes a significant amount of water, they will experience a state of hydration. Conversely, if excessive amounts of sugar are ingested, a sugar crash will ensue. It is known that at least one of the following statements is true: either the Jane consumes ample water or she will not experience a sugar crash. Can we say at least one of the following must always be true? (a) she will feel hydrated and (b) she doesn't eat too much sugar, 		 True, 		 None
+#> Output IDs: torch.Size([110]), tensor([  101,     1,  2065,  2019,  3265, 16678,  2015,  1037,  3278,  3815,
+         1997,  2300,  1010,  2027,  2097,  3325,  1037,  2110,  1997, 26018,
+         3508,  1012, 18868,  1010,  2065, 11664,  8310,  1997,  5699,  2024,
+        13749, 17944,  1010,  1037,  5699,  5823,  2097,  4372,  6342,  2063,
+         1012,  2009,  2003,  2124,  2008,  2012,  2560,  2028,  1997,  1996,
+         2206,  8635,  2003,  2995,  1024,  2593,  1996,  4869, 16678,  2015,
+        20851,  2300,  2030,  2016,  2097,  2025,  3325,  1037,  5699,  5823,
+         1012,  2064,  2057,  2360,  2012,  2560,  2028,  1997,  1996,  2206,
+         2442,  2467,  2022,  2995,  1029,  1006,  1037,  1007,  2016,  2097,
+         2514, 26018,  3064,  1998,  1006,  1038,  1007,  2016,  2987,  1005,
+         1056,  4521,  2205,  2172,  5699,   102,   103,   103,   103,   103])
+#> Output Mask: torch.Size([110]), tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0])
+
+[{'content': 'At least one of the following statements holds true: either the possibility of jill not acquiring a breath of fresh air or the potential of she is not experiencing a state of relaxation.', 'score': 57.08216857910156, 'rank': 1, 'document_id': '1811bb79-0bc5-4c5d-907d-0a8fefad57ae', 'passage_id': 41}, {'content': 'If an individual consumes unhealthy food, weight gain is likely to occur.', 'score': 54.369239807128906, 'rank': 2, 'document_id': '8a59f8f9-4183-4833-ac0a-36e6de5eddef', 'passage_id': 134}, {'content': 'If an individual experiences joy, they have a tendency to dine out in the evening.', 'score': 53.34769058227539, 'rank': 3, 'document_id': 'e8da0a05-3f24-4e55-a407-935d6b1dedff', 'passage_id': 124}, {'content': "It is important to note that we cannot determine which statement is true: either Alice won't be in a good mood or she won't become energetic.", 'score': 52.6669807434082, 'rank': 4, 'document_id': '58bb6e97-e2d5-432a-9ca5-ffd32eabbe3a', 'passage_id': 55}, {'content': 'At least one of the following scenarios is true: either Julie is dedicated to her gym routine or she will not experience weight gain.', 'score': 52.49238204956055, 'rank': 5, 'document_id': '5477c7d9-e24f-47bb-a17a-7218d7eb19ad', 'passage_id': 5}]
+
+{'content': 'At least one of the following statements holds true: either the possibility of jill not acquiring a breath of fresh air or the potential of she is not experiencing a state of relaxation.', 'score': 57.08216857910156, 'rank': 1, 'document_id': '1811bb79-0bc5-4c5d-907d-0a8fefad57ae', 'passage_id': 41}
+['At least one of the following statements holds true: either the possibility of jill not acquiring a breath of fresh air or the potential of she is not experiencing a state of relaxation.', 'If an individual consumes unhealthy food, weight gain is likely to occur.', 'If an individual experiences joy, they have a tendency to dine out in the evening.', "It is important to note that we cannot determine which statement is true: either Alice won't be in a good mood or she won't become energetic.", 'At least one of the following scenarios is true: either Julie is dedicated to her gym routine or she will not experience weight gain.']
+
+Traceback (most recent call last):
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/loadrag.py", line 284, in <module>
+    main()
+  File "/gpfs/home4/lknigge/augmented_llm_playground_fabian/loadrag.py", line 246, in main
+    accuracy = sum(results)/len(results)
+               ~~~~~~~~~~~~^~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+JOB STATISTICS
+==============
+Job ID: 11575968
+Cluster: snellius
+User/Group: lknigge/lknigge
+State: RUNNING
+Nodes: 1
+Cores per node: 24
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:08:48 core-walltime
+Job Wall-clock time: 00:00:22
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 42.00 GB (1.75 GB/core)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

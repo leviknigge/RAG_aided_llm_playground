@@ -40,3 +40,4 @@ langgraph==0.2.54
 # Logic-LM imports
 z3-solver==4.13.0.0
 ply==3.11
+sentence_transformers

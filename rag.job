@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#SBATCH --partition=genoa
+#SBATCH --job-name=evaluate_test
+#SBATCH --ntasks=1
+#SBATCH --time=00:10:00
+#SBATCH --output=zz_trained_top5%A_%a.out
+
+module purge
+module load 2023    
+module load Anaconda3/2023.07-2
+
+# Your job starts in the directory where you call sbatch
+# cd $HOME/...
+# Activate your environment
+# conda info --envs
+source activate thesis-env
+source /home/knigge/.bashrc
+
+# pip install -e /home/lknigge/augmented_llm_playground_fabian
+# Run your code
+set -a
+. /home/lknigge/augmented_llm_playground_fabian/.env
+set +a
+
+# cd augmented_llm_playground_fabian
+python loadrag.py
+# python indexrag.py

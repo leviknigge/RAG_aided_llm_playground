@@ -4,7 +4,8 @@ defaults:
   # - model: langgraph
   - model: langgraph_rag
   # - datasets: logicbench
-  - datasets: logicbench_rag
+  # - datasets: logicbench_rag
+  - datasets: logicbench_untrained
   # - datasets: logicbench_rag_debug
 
   - _self_
@@ -19,8 +20,8 @@ experiment_name: Debug JAM
 experiment_description: Experiment on tool-augmented language models.
 # experiment_tracking_uri: http://127.0.0.1:5000
 
-result_dir: /home/lknigge/augmented_llm_playground_fabian/outputs/baseline_retrieve_inmodel
+result_dir: /home/lknigge/augmented_llm_playground_fabian/outputs/untrained_retrieve
 
 hydra:
   run:
-    dir: /home/lknigge/augmented_llm_playground_fabian/outputs/baseline_retrieve_inmodel
+    dir: /home/lknigge/augmented_llm_playground_fabian/outputs/untrained_retrieve

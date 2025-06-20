@@ -13,10 +13,11 @@ batch_size: 1
 verbose: True
 experiment_name: LogicNoiseBench (JAM Linter Test)
 experiment_description: Experiment on the LogicBench dataset.
-experiment_tracking_uri: http://127.0.0.1:5000
+# experiment_tracking_uri: http://127.0.0.1:5000
 
-result_dir: ${oc.env:PROJECT_ROOT}/outputs/${experiment_name}/${now:%Y-%m-%d_%H-%M-%S}
+result_dir: /home/lknigge/augmented_llm_playground_fabian/outputs/${experiment_name}/${now:%Y-%m-%d_%H-%M-%S}
 
 hydra:
   run:
-    dir: ${result_dir}
+    dir: /home/lknigge/augmented_llm_playground_fabian/outputs/${experiment_name}/${now:%Y-%m-%d_%H-%M-%S}
+
