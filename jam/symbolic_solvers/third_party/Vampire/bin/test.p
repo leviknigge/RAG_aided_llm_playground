@@ -1,4 +1,4 @@
-    fof(usa,axiom, country(usa) ).
+fof(usa,axiom, country(usa) ).
 fof(country_big_city,axiom,
     ! [C] : ( country(C) => ( big_city(capital_of(C)) & beautiful(capital_of(C)) ) ) ).
 fof(usa_capital_axiom,axiom, 
