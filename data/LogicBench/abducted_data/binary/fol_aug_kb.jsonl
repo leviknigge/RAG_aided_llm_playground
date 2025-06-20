@@ -1,0 +1,900 @@
+{"bd.0": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.1": ["If someone goes for a run, then they will feel healthier."]}
+{"bd.2": ["We know that atleast one of the following is true (1) Alice reads a book."]}
+{"bd.3": ["If someone drives recklessly, then they will get a ticket."]}
+{"bd.4": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.5": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.6": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.7": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.8": ["If they take a bus, then they will reach the destination after a long time."]}
+{"bd.9": ["If someone turns off their phone, then they will be more productive."]}
+{"bd.10": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.11": ["If someone goes to bed early , then they will feel well-rested ."]}
+{"bd.12": ["and (2) he won't be able to get in.."]}
+{"bd.13": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.14": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.15": ["If someone reads a lot, then they become more knowledgeable."]}
+{"bd.16": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.17": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.18": ["We know that atleast one of the following is true (1) Jill reads a book and (2) he won't be more distracted."]}
+{"bd.19": ["If   they take the bus , then   they will save money."]}
+{"bd.20": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.21": ["If someone drives a car, then they will reach their destination quickly."]}
+{"bd.22": ["We know that atleast one of the following is true (1) Jill goes to the gym and (2) she won't gain weight."]}
+{"bd.23": ["If someone drives recklessly, then they will get a ticket."]}
+{"bd.24": ["If someone turns the lights off, then the room will be dark."]}
+{"bd.25": ["If someone walks for an hour , then they will lose weight ."]}
+{"bd.26": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.27": ["If someone drives recklessly, then they could get into an accident."]}
+{"bd.28": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.29": ["If they get easily distracted, then they will not perform well."]}
+{"bd.30": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.31": ["If someone turns off the lights, then the room will be dark."]}
+{"bd.32": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.33": ["If they drive a car, then they will reach their destination quickly."]}
+{"bd.34": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.35": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.36": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.37": ["If they watch too much tv, then they will not get good grades."]}
+{"bd.38": ["We know that atleast one of the following is true (1) Karen reads a lot and (2) she won't become less productive."]}
+{"bd.39": ["If they climb the stairs, then they will be out of breath."]}
+{"bd.40": ["If they drive responsibly, then they will stay safe."]}
+{"bd.41": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.42": ["We know that atleast one of the following is true (1) Nina takes public transportation and (2) he won't spend money."]}
+{"bd.43": ["If someone neglects their health, then they will suffer from diseases."]}
+{"bd.44": ["and (2) she won't reach her destination on time.."]}
+{"bd.45": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.46": ["If someone drives carelessly, then they will get a ticket."]}
+{"bd.47": ["If they take on more tasks, then they will feel overwhelmed."]}
+{"bd.48": ["We know that atleast one of the following is true (1) George drives a car  and (2) he won't get a ticket."]}
+{"bd.49": ["If someone drives a car, then they will reach their destination faster."]}
+{"bd.50": ["We know that atleast one of the following is true (1) John drives recklessly and (2) he won't stay safe."]}
+{"bd.51": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.52": ["and (2) he won't be energized.."]}
+{"bd.53": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.54": ["If they follow the speed limit, then they will stay safe."]}
+{"bd.55": ["We know that atleast one of the following is true (1) Mary uses public transport  and (2) he won't spend more."]}
+{"bd.56": ["We know that atleast one of the following is true (1) John reads a book and (2) he will none distracted."]}
+{"bd.57": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.58": ["and (2) she won't get poor grades.."]}
+{"bd.59": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.60": ["and (2) he won't gain weight.."]}
+{"bd.61": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.62": ["If someone read a book every day, then they will gain knowledge."]}
+{"bd.63": ["and (2) she will get good grades.."]}
+{"bd.64": ["If they eat organic food, then they will have more energy."]}
+{"bd.65": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.66": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.67": ["If they drive on a side road, then they will take longer to reach their destination."]}
+{"bd.68": ["We know that atleast one of the following is true (1) Olivia takes the bus."]}
+{"bd.69": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.70": ["We know that atleast one of the following is true (1) John drives a car and (2) he won't save money."]}
+{"bd.71": ["If someone uses a car to commute, then they will save time."]}
+{"bd.72": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.73": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.74": ["If someone drives recklessly, then they will get a ticket."]}
+{"bd.75": ["If they take the elevator , then they will be late."]}
+{"bd.76": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.77": ["and (2) he won't gain weight.."]}
+{"bd.78": ["We know that atleast one of the following is true (1) Jennifer goes for a walk and (2) he won't feel tired."]}
+{"bd.79": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.80": ["If someone takes the bus to work, then they will save money."]}
+{"bd.81": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.82": ["If someone works out regularly, then they will become healthier."]}
+{"bd.83": ["We know that atleast one of the following is true (1) John studies hard and (2) he won't perform poorly."]}
+{"bd.84": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.85": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.86": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.87": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.88": ["If they drive recklessly, then they will have an accident."]}
+{"bd.89": ["If they watch television, then they will have a decrease in concentration."]}
+{"bd.90": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.91": ["If they do not exercise at all, then they will not get any benefit."]}
+{"bd.92": ["If someone reads a lot, then they will improve their knowledge."]}
+{"bd.93": ["If they drive safely, then they will have a safe journey."]}
+{"bd.94": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.95": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.96": ["If they wear no sunscreen, then they will be exposed to the sun."]}
+{"bd.97": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.98": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.99": ["We know that atleast one of the following is true (1) John drives a car and (2) he won't be able to save money."]}
+{"bd.100": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.101": ["We know that atleast one of the following is true (1) Tom studies hard."]}
+{"bd.102": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.103": ["We know that atleast one of the following is true (1) John reads books and (2) he won't become drowsy."]}
+{"bd.104": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.105": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.106": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.107": ["If someone drinks a lot of water, then they will stay hydrated."]}
+{"bd.108": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.109": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.110": ["If they take public transport, then they will save money."]}
+{"bd.111": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.112": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.113": ["If they stay inside for long hours, then they will not get a tan."]}
+{"bd.114": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.115": ["If someone drives carefully, then they will reach the destination safely."]}
+{"bd.116": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.117": ["We know that atleast one of the following is true (1) Samantha spends time outdoors and (2) she won't stay cool.."]}
+{"bd.118": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.119": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.120": ["If they stay up late, then they will be tired."]}
+{"bd.121": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.122": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.123": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.124": ["We know that atleast one of the following is true (1) Jack takes public transport and (2) he won't have to pay a lot."]}
+{"bd.125": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.126": ["We know that atleast one of the following is true (1) Jill drives recklessly and (2) she won't be safe."]}
+{"bd.127": ["If someone works hard, then they will be successful."]}
+{"bd.128": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.129": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.130": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.131": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.132": ["We know that atleast one of the following is true (1) Hannah drives a car and (2) she doesn't arrive later."]}
+{"bd.133": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.134": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.135": ["If someone studies hard, then they will get good grades."]}
+{"bd.136": ["If they stay up late, then they will feel tired."]}
+{"bd.137": ["If they finish their work early , then they will get rewarded ."]}
+{"bd.138": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.139": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.140": ["If they stay indoors , then they will not get a tan ."]}
+{"bd.141": ["If someone pays attention to their nutrition, then they will have better health."]}
+{"bd.142": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"bd.143": ["We know that atleast one of the following is true (1) Steve drives a car and (2) he won't save money."]}
+{"bd.144": ["If someone drives a car, then they will reach their destination quickly."]}
+{"bd.145": ["If someone drives recklessly , then they will get a ticket ."]}
+{"bd.146": ["If someone drives a car , then they will get to their destination quickly ."]}
+{"bd.147": ["If someone goes for a walk, then they will feel refreshed."]}
+{"bd.148": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"bd.149": ["If someone drives a car, then they will reach their destination faster."]}
+{"hs.0": ["If they will not improve their skills, then they will not be successful."]}
+{"hs.1": ["If someone gets a job, then they have to pay taxes."]}
+{"hs.2": ["If they will be safe , then they will be allowed to continue their activity ."]}
+{"hs.3": ["If someone follows a healthy diet, then they will be healthy."]}
+{"hs.4": ["If someone completes all their tasks , then they will be rewarded ."]}
+{"hs.5": ["If they will be physically fit, then they will have more energy."]}
+{"hs.6": ["If they will stay safe , then they won't get sick ."]}
+{"hs.7": ["If someone uses their willpower, then they can stay disciplined."]}
+{"hs.8": ["If someone wears a face mask , then they can enter the store ."]}
+{"hs.9": ["If someone drives safely, then they will not be charged with a ticket."]}
+{"hs.10": ["If they will be likely to get good grades, then they will be rewarded with a scholarship."]}
+{"hs.11": ["If someone does not follow the rules, then they will be reprimanded."]}
+{"hs.12": ["If they will gain knowledge, then they will be wise."]}
+{"hs.13": ["If they will be protected from germs, then they will stay healthy."]}
+{"hs.14": ["If they can achieve their goals, then they will be successful."]}
+{"hs.15": ["If they will be at risk of getting infected, then they will not be allowed to enter the premises."]}
+{"hs.16": ["If they won't get into an accident, then they will stay safe."]}
+{"hs.17": ["If they will not be able to concentrate , then they will not perform well in their exams ."]}
+{"hs.18": ["If they get a promotion, then they will receive a salary rise ."]}
+{"hs.19": ["If someone takes a short break, then they become refreshed."]}
+{"hs.20": ["If they will have a good credit score , then they will be able to get a loan ."]}
+{"hs.21": ["If they will be rewarded , then they will be promoted ."]}
+{"hs.22": ["If they will learn new material , then they will be able to apply it ."]}
+{"hs.23": ["If they will learn new skills, then they will gain knowledge."]}
+{"hs.24": ["If someone loves to read , then they will have a good understanding of the subject ."]}
+{"hs.25": ["If they will be safe, then they will avoid any accidents."]}
+{"hs.26": ["If someone is working hard, then they will get a promotion."]}
+{"hs.27": ["If they will perform well , then they will pass the course ."]}
+{"hs.28": ["If someone practices diligently, then they will have a better understanding."]}
+{"hs.29": ["If they can buy the car, then they will be able to travel."]}
+{"hs.30": ["If someone works hard , then they will get good grades."]}
+{"hs.31": ["If someone eats all the food in the fridge, then they will be full."]}
+{"hs.32": ["If someone eats healthy food, then they will have a healthy lifestyle."]}
+{"hs.33": ["If the dog will remain healthy, then the dog will be happy."]}
+{"hs.34": ["If someone follows a healthy diet , then they will stay fit ."]}
+{"hs.35": ["If someone buys a new car, then their financial situation will improve."]}
+{"hs.36": ["If someone takes the bus every day, then they will be on time."]}
+{"hs.37": ["If they will get a degree, then they will get a job."]}
+{"hs.38": ["If they will be well informed, then they can make better decisions."]}
+{"hs.39": ["If someone is working hard , then they will be successful ."]}
+{"hs.40": ["If they enjoy the scenery, then they will feel happy."]}
+{"hs.41": ["If someone cleans their room, then they will feel relaxed."]}
+{"hs.42": ["If someone eats all the junk food, then they will gain weight."]}
+{"hs.43": ["If they will buy food , then they will have enough to eat."]}
+{"hs.44": ["If they will not get infected, then they will stay safe."]}
+{"hs.45": ["If they will get the desired results, then they will be successful."]}
+{"hs.46": ["If someone goes for a walk , then they take a break ."]}
+{"hs.47": ["If they will have peace of mind, then they will have more free time."]}
+{"hs.48": ["If someone takes a course, then they will learn a lot."]}
+{"hs.49": ["If someone takes a deep breath, then they will calm down."]}
+{"hs.50": ["If someone does not take a shower, then they will smell bad."]}
+{"hs.51": ["If they will have to pay taxes, then they will feel more independent."]}
+{"hs.52": ["If someone takes a walk every day, then they will stay healthy."]}
+{"hs.53": ["If someone takes a loan , then they will have to pay interest ."]}
+{"hs.54": ["If they will develop a skill, then they will make progress ."]}
+{"hs.55": ["If they will gain a lot of knowledge, then they will be well informed."]}
+{"hs.56": ["If someone studies diligently, then they will perform well in their exams."]}
+{"hs.57": ["If they will receive a bonus , then they will be able to buy a house."]}
+{"hs.58": ["If they will get good grades, then they will be able to get a job ."]}
+{"hs.59": ["If sentence, then if someone practices for their exams, they will perform well ."]}
+{"hs.60": ["If someone takes a vacation, then they will be relaxed ."]}
+{"hs.61": ["If someone has a good job, then they have a lot of money."]}
+{"hs.62": ["If someone takes up a new job, then they will need to learn the ropes."]}
+{"hs.63": ["If they need to attend classes , then they will be able to pass the course."]}
+{"hs.64": ["If someone eats healthy, then they will have more energy."]}
+{"hs.65": ["If someone saves all their money, then they can start their own business."]}
+{"hs.66": ["If they will get a promotion, then they will be successful."]}
+{"hs.67": ["If someone follows a healthy diet , then they exercise regularly ."]}
+{"hs.68": ["If they will get the job, then they will be successful."]}
+{"hs.69": ["If someone goes to the gym regularly, then they will stay healthy."]}
+{"hs.70": ["If someone takes the initiative to learn a new skill , then they will be able to use the skill for professional development ."]}
+{"hs.71": ["If they will stay fit, then they will have a healthy lifestyle."]}
+{"hs.72": ["If someone saves all their money, then they can go on a holiday."]}
+{"hs.73": ["If they will get an a in the course, then they will get a scholarship."]}
+{"hs.74": ["If someone exercises regularly, then they will have more energy."]}
+{"hs.75": ["If they will be intoxicated, then they will not be able to drive."]}
+{"hs.76": ["If they will remain compliant, then they will not be penalized."]}
+{"hs.77": ["If they will get good grades, then they will be more likely to pass the course."]}
+{"hs.78": ["If someone works diligently , then they will be praised."]}
+{"hs.79": ["If they will achieve great success , then they will be admired ."]}
+{"hs.80": ["If they will be protected from the virus, then they will be safe."]}
+{"hs.81": ["If they can start the project, then they will finish it on time."]}
+{"hs.82": ["If someone follows all the rules, then they will get a reward."]}
+{"hs.83": ["If someone washes their car , then they will have a clean car ."]}
+{"hs.84": ["If someone plants a tree, then they will reduce air pollution."]}
+{"hs.85": ["If they will stay safe , then they will not get affected by the virus ."]}
+{"hs.86": ["If someone doesn't get enough sleep, then they will not be able to focus."]}
+{"hs.87": ["If they will have more energy, then they will be more productive."]}
+{"hs.88": ["If they will stay safe, then they will not suffer from any illness."]}
+{"hs.89": ["If someone is unwell, then they are unable to attend school."]}
+{"hs.90": ["If they need to register the car , then they will get a car plate number ."]}
+{"hs.91": ["If someone takes a course, then they get good grades."]}
+{"hs.92": ["If they will understand the topics, then they will be able to answer the questions."]}
+{"hs.93": ["If they need to pay the registration fees, then they will be able to drive the car."]}
+{"hs.94": ["If they have to finish it within the deadline, then they will be rewarded."]}
+{"hs.95": ["If someone eats a healthy breakfast, then they will have more energy."]}
+{"hs.96": ["If someone takes a lot of effort, then they will be successful."]}
+{"hs.97": ["If someone follows the instructions, then they will get desired results."]}
+{"hs.98": ["If someone volunteers to help out, then they will feel appreciated."]}
+{"hs.99": ["If someone takes all the necessary precautions, then they will be safe."]}
+{"hs.100": ["If someone pays all their taxes, then they will be in good standing with the government."]}
+{"hs.101": ["If someone gets a high score on the test, then they will get an a in the class."]}
+{"hs.102": ["If someone takes all the necessary steps , then they will be successful ."]}
+{"hs.103": ["If they will get good grades, then they will have more opportunities."]}
+{"hs.104": ["If they will understand the concepts , then they will get good grades ."]}
+{"hs.105": ["If they can pass the test , then they will get a high score ."]}
+{"hs.106": ["If they will learn new information, then they will gain new skills ."]}
+{"hs.107": ["If the room will be dark, then there will be no visibility."]}
+{"hs.108": ["If they receive compliments, then they feel proud."]}
+{"hs.109": ["If someone does not pay their bills, then they will face a financial penalty."]}
+{"hs.110": ["If they will receive the product in a few days, then they will have to pay for it."]}
+{"hs.111": ["If someone buys a new car , then they will need to insure it ."]}
+{"hs.112": ["If they will stay healthy, then they can live a long life."]}
+{"hs.113": ["If someone follows a healthy diet, then they will have good health."]}
+{"hs.114": ["If someone works hard , then they will get a promotion ."]}
+{"hs.115": ["If they can cook a delicious meal, then they will be able to impress their friends."]}
+{"hs.116": ["If someone takes all the necessary precautions , then they will be safe from any harm ."]}
+{"hs.117": ["If they will have better immunity, then they will be less likely to catch a disease."]}
+{"hs.118": ["If someone cycles to work daily, then their health will improve."]}
+{"hs.119": ["If they will be proud of their country, then they will sing the national anthem."]}
+{"hs.120": ["If someone goes to the store , then they will buy something ."]}
+{"hs.121": ["If someone turns off all the lights, then the room will be dark."]}
+{"hs.122": ["If they pass the exams, then they will get a good grade."]}
+{"hs.123": ["If someone wears a seatbelt, then they will be safe."]}
+{"hs.124": ["If they will have an improved understanding of the subject, then they will be likely to get better grades."]}
+{"hs.125": ["If someone puts in extra effort, then they will be successful."]}
+{"hs.126": ["If someone follows a healthy diet, then they will be able to stay fit."]}
+{"hs.127": ["If someone cleans the room, then they will be praised by their parents."]}
+{"hs.128": ["If they will stay fit, then they will have a healthy lifestyle."]}
+{"hs.129": ["If they get to drive it around town , then they will feel proud of their purchase ."]}
+{"hs.130": ["If they must face the consequences, then they will learn from their mistake."]}
+{"hs.131": ["If someone buys a new car, then they will have to pay the registration fees."]}
+{"hs.132": ["If they will have bad breath , then they will not make a good impression ."]}
+{"hs.133": ["If they will be given extra credit, then they will be given a promotion."]}
+{"hs.134": ["If someone eats all their vegetables, then they will be healthy."]}
+{"hs.135": ["If someone goes to the store , then they will buy something ."]}
+{"hs.136": ["If they will buy something, then they will be charged for the purchase."]}
+{"hs.137": ["If someone goes to the gym regularly, then they will be in good shape."]}
+{"hs.138": ["If someone always helps out their friends , then they will be rewarded with kindness ."]}
+{"hs.139": ["If someone cleans up their room , then they can invite their friends over ."]}
+{"hs.140": ["If they will get tired, then they will need rest."]}
+{"hs.141": ["If someone finishes all their tasks, then they will get a promotion."]}
+{"hs.142": ["If someone goes to the gym every day , then they will be physically fit ."]}
+{"hs.143": ["If someone does not wear a helmet, then they are more likely to get injured."]}
+{"hs.144": ["If someone studies hard, then they will perform well."]}
+{"hs.145": ["If they will be rewarded, then they will get a raise."]}
+{"hs.146": ["If someone studies hard for their exams, then they will perform well."]}
+{"hs.147": ["If someone passes all the tests, then they will get a promotion."]}
+{"hs.148": ["If they will have to face the consequences , then their reputation will be damaged ."]}
+{"hs.149": ["If someone runs a marathon, then they will be tired."]}
+{"ui.0": ["all cats are carnivores."]}
+{"ui.1": ["all people who regularly jog are fit."]}
+{"ui.2": ["all mammals are warm-blooded ."]}
+{"ui.3": ["this tiger is a cat."]}
+{"ui.4": ["mary is an adult."]}
+{"ui.5": ["lucy is a cat."]}
+{"ui.6": ["this lion is a cat."]}
+{"ui.7": ["this kitten has whiskers ."]}
+{"ui.8": ["this labrador retriever has four legs."]}
+{"ui.9": ["all houses need proper maintenance."]}
+{"ui.10": ["all students in the school have to wear a uniform ."]}
+{"ui.11": ["this oak tree produces oxygen."]}
+{"ui.12": ["all dogs have four legs."]}
+{"ui.13": ["all teachers need to have a master's degree."]}
+{"ui.14": ["all plants need water to survive ."]}
+{"ui.15": ["this siamese cat has fur ."]}
+{"ui.16": ["john is a student ."]}
+{"ui.17": ["sarah is a student."]}
+{"ui.18": ["this pet is a cat."]}
+{"ui.19": ["this persian cat has fur ."]}
+{"ui.20": ["fido is a dog ."]}
+{"ui.21": ["all cats are carnivores."]}
+{"ui.22": ["all students must attend the class."]}
+{"ui.23": ["tom is a cat ."]}
+{"ui.24": ["my pet is a cat."]}
+{"ui.25": ["all teachers are knowledgeable."]}
+{"ui.26": ["fido is a dog."]}
+{"ui.27": ["all students take exams to measure their knowledge."]}
+{"ui.28": ["she is a student of that college ."]}
+{"ui.29": ["this fish lives in water ."]}
+{"ui.30": ["the kitten has fur ."]}
+{"ui.31": ["all cats meow ."]}
+{"ui.32": ["all cats have fur ."]}
+{"ui.33": ["max is a dog."]}
+{"ui.34": ["all cats like to eat fish ."]}
+{"ui.35": ["all plants need sunlight to survive."]}
+{"ui.36": ["mary is a teacher ."]}
+{"ui.37": ["all cats meow."]}
+{"ui.38": ["tom is a cat ."]}
+{"ui.39": ["all teachers are expected to be role models to their students."]}
+{"ui.40": ["she is a student ."]}
+{"ui.41": ["all fruits are sweet ."]}
+{"ui.42": ["john is a student ."]}
+{"ui.43": ["everyone should have a healthy lifestyle ."]}
+{"ui.44": ["mary is a student."]}
+{"ui.45": ["tom is a cat ."]}
+{"ui.46": ["all students who pursue higher studies must work hard ."]}
+{"ui.47": ["tom is a cat ."]}
+{"ui.48": ["all students have to take their exams on time ."]}
+{"ui.49": ["rex is a dog ."]}
+{"ui.50": ["john's cat is a pet ."]}
+{"ui.51": ["all dogs are mammals ."]}
+{"ui.52": ["this kitten is a cat."]}
+{"ui.53": ["all fruits are edible."]}
+{"ui.54": ["all dogs love to play ."]}
+{"ui.55": ["all cats are carnivores ."]}
+{"ui.56": ["all cats are carnivores."]}
+{"ui.57": ["all doctors have a medical degree."]}
+{"ui.58": ["all cats have sharp claws ."]}
+{"ui.59": ["spot is a dog ."]}
+{"ui.60": ["all mammals have fur."]}
+{"ui.61": ["john's pet is a cat."]}
+{"ui.62": ["all trees have leaves."]}
+{"ui.63": ["all trees grow leaves in the spring."]}
+{"ui.64": ["all cats have whiskers."]}
+{"ui.65": ["all mammals nourish their young with milk."]}
+{"ui.66": ["she is a doctor ."]}
+{"ui.67": ["this beagle has four legs ."]}
+{"ui.68": ["this cobra is a snake."]}
+{"ui.69": ["she is a teacher."]}
+{"ui.70": ["all students have to attend classes."]}
+{"ui.71": ["all students have to write an essay before the end of the term."]}
+{"ui.72": ["john is a child ."]}
+{"ui.73": ["all cats have fur ."]}
+{"ui.74": ["all cats have fur."]}
+{"ui.75": ["all cats are carnivores ."]}
+{"ui.76": ["all teachers have a passion for teaching."]}
+{"ui.77": ["all students who go to college need financial aid ."]}
+{"ui.78": ["this book has been written by a renowned author ."]}
+{"ui.79": ["henry is a cat."]}
+{"ui.80": ["all cats have fur."]}
+{"ui.81": ["sarah's cat can climb trees."]}
+{"ui.82": ["all cats love to play ."]}
+{"ui.83": ["all politicians are hardworking."]}
+{"ui.84": ["all students must complete their assignments on time."]}
+{"ui.85": ["all students should have a plan for the future."]}
+{"ui.86": ["john is a parent."]}
+{"ui.87": ["all living things consume oxygen."]}
+{"ui.88": ["all students are required to wear uniforms."]}
+{"ui.89": ["sheba is a cat ."]}
+{"ui.90": ["this dog is a mammal."]}
+{"ui.91": ["all plants need water to survive ."]}
+{"ui.92": ["all dogs have four legs ."]}
+{"ui.93": ["all animals with fins can swim ."]}
+{"ui.94": ["spot is a dog ."]}
+{"ui.95": ["all cats are carnivores ."]}
+{"ui.96": ["felix is a cat."]}
+{"ui.97": ["garfield is a cat ."]}
+{"ui.98": ["this elephant has a brain."]}
+{"ui.99": ["she is a software developer ."]}
+{"ui.100": ["this feline has whiskers."]}
+{"ui.101": ["all cats are carnivores ."]}
+{"ui.102": ["tom is a student."]}
+{"ui.103": ["sarah is a student."]}
+{"ui.104": ["all dogs have fur ."]}
+{"ui.105": ["this animal is a cat."]}
+{"ui.106": ["aman is a student ."]}
+{"ui.107": ["all computers require regular maintenance ."]}
+{"ui.108": ["this oak tree is a tree ."]}
+{"ui.109": ["all cats like to play with yarn."]}
+{"ui.110": ["all roses have thorns ."]}
+{"ui.111": ["mary is a human ."]}
+{"ui.112": ["all animals with fur have thick skin."]}
+{"ui.113": ["all doctors have taken up medical studies ."]}
+{"ui.114": ["all students must pass their exams."]}
+{"ui.115": ["this elephant has fur ."]}
+{"ui.116": ["john is attending college ."]}
+{"ui.117": ["sheela sometimes attends classes."]}
+{"ui.118": ["max is a cat ."]}
+{"ui.119": ["all dogs are loyal animals."]}
+{"ui.120": ["all dogs bark."]}
+{"ui.121": ["every student must pass the final exam."]}
+{"ui.122": ["jane is a teacher ."]}
+{"ui.123": ["all computer scientists are tech savvy."]}
+{"ui.124": ["all human beings are mortal."]}
+{"ui.125": ["this laptop has an operating system ."]}
+{"ui.126": ["this kitten has fur."]}
+{"ui.127": ["all teachers need to be experienced in their field."]}
+{"ui.128": ["all mammals have fur."]}
+{"ui.129": ["max is a dog."]}
+{"ui.130": ["this dog needs oxygen to survive ."]}
+{"ui.131": ["this lion is a mammal ."]}
+{"ui.132": ["all students must complete their assignments on time."]}
+{"ui.133": ["mrs smith is a teacher ."]}
+{"ui.134": ["my dog needs regular exercise."]}
+{"ui.135": ["she has this right."]}
+{"ui.136": ["all doctors are dedicated to their profession."]}
+{"ui.137": ["all mammals have fur ."]}
+{"ui.138": ["all mammals have fur ."]}
+{"ui.139": ["this ford mustang needs regular maintenance."]}
+{"ui.140": ["all employees have to work five days a week."]}
+{"ui.141": ["all students have to attend classes ."]}
+{"ui.142": ["the stallion is a horse."]}
+{"ui.143": ["she is a scientist."]}
+{"ui.144": ["this book was written by an author of this century ."]}
+{"ui.145": ["she is a teacher."]}
+{"ui.146": ["all cats have fur."]}
+{"ui.147": ["she is a teacher."]}
+{"ui.148": ["all cats meow ."]}
+{"ui.149": ["all students need to take an exam to complete their degree."]}
+{"cd.0": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.1": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.2": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.3": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.4": ["If they go to the park, then they will go for a walk."]}
+{"cd.5": ["If they went to the park, then they will have a picnic."]}
+{"cd.6": ["We know that atleast one of the following is true (1) Mary goes for a walk  and (2) John goes to the library ."]}
+{"cd.7": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.8": ["If they watched a movie, then they will discuss the plot."]}
+{"cd.9": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.10": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.11": ["If someone go to the library, then they will read a book."]}
+{"cd.12": ["and (2) She is studying for her exams.."]}
+{"cd.13": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.14": ["We know that atleast one of the following is true (1) John is going for a walk in the park and (2) Sara is going to the beach."]}
+{"cd.15": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.16": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.17": ["If they is watching a movie, then they will finish it soon."]}
+{"cd.18": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.19": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.20": ["If someone went to the library, then they will read a book."]}
+{"cd.21": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.22": ["If someone is watching a movie, then their friends will join."]}
+{"cd.23": ["We know that atleast one of the following is true (1) Sophia planted a tree and (2) John planted a bush."]}
+{"cd.24": ["If someone went to the library , then they will read a book ."]}
+{"cd.25": ["We know that atleast one of the following is true (1) John and Mary are attending the lecture."]}
+{"cd.26": ["If someone went to the gym, then they will watch a movie."]}
+{"cd.27": ["If they are cooking a meal, then they will appreciate it."]}
+{"cd.28": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.29": ["If someone goes to the library, then they will borrow books."]}
+{"cd.30": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.31": ["If they went to the cinema, then they will watch a movie."]}
+{"cd.32": ["and (2) Jack is writing a story.."]}
+{"cd.33": ["and (2) Steven is cooking pasta.."]}
+{"cd.34": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.35": ["If they go to the park, then they will take a walk."]}
+{"cd.36": ["We know that atleast one of the following is true (1) Avery is eating ice cream."]}
+{"cd.37": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.38": ["If they went for a walk, then they will breathe fresh air."]}
+{"cd.39": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.40": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.41": ["If someone is playing video games inside, then his/her brother will join in the game."]}
+{"cd.42": ["If someone visits the library, then they will borrow books."]}
+{"cd.43": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.44": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.45": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.46": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.47": ["If someone goes to the park, then they will play badminton."]}
+{"cd.48": ["We know that atleast one of the following is true (1) Jill went to the library and (2) she went to the cinema."]}
+{"cd.49": ["We know that atleast one of the following is true (1) Jasmine takes a bus to the office and (2) Jasmine takes a train to the beach."]}
+{"cd.50": ["If they are taking a break, then they will spend time with her friends."]}
+{"cd.51": ["and (2) She is watching a movie.."]}
+{"cd.52": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.53": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.54": ["If someone goes to the library, then they will borrow a book."]}
+{"cd.55": ["If they go to the theatre , then they will watch a play ."]}
+{"cd.56": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.57": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.58": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.59": ["If students read a book, then they will write an essay."]}
+{"cd.60": ["If someone went to the grocery store, then they will buy some food items."]}
+{"cd.61": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.62": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.63": ["If they are visiting the library, then they will go to the museum."]}
+{"cd.64": ["We know that atleast one of the following is true (1) Sophie went to the library and (2) John went to watch a movie."]}
+{"cd.65": ["If they go to the library, then they will borrow books."]}
+{"cd.66": ["If they go to the library, then they will borrow books."]}
+{"cd.67": ["We know that atleast one of the following is true (1) Jill goes to the beach  and (2) she goes to the park ."]}
+{"cd.68": ["If someone goes to the movies, then they will go for ice-cream."]}
+{"cd.69": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.70": ["If someone watches a movie, then they will have a better experience."]}
+{"cd.71": ["We know that atleast one of the following is true (1) Jim is studying for an exam and (2) he is attending classes."]}
+{"cd.72": ["We know that atleast one of the following is true (1) Tim is reading a book."]}
+{"cd.73": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.74": ["We know that atleast one of the following is true (1) Sarah goes to the library and (2) She goes to the park."]}
+{"cd.75": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.76": ["If they go to the library, then they will read a book."]}
+{"cd.77": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.78": ["We know that atleast one of the following is true (1) Jenny goes to the library and (2) Jenny goes to the park."]}
+{"cd.79": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.80": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.81": ["If someone buys a new book, then their friends will read it."]}
+{"cd.82": ["If they are going to the beach, then they will build a sandcastle."]}
+{"cd.83": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.84": ["and (2) She went to the cafe.."]}
+{"cd.85": ["If they are running in the playground, then they will see the children playing."]}
+{"cd.86": ["We know that atleast one of the following is true (1) Sarah is going to the beach."]}
+{"cd.87": ["If someone went to the library, then they read a book."]}
+{"cd.88": ["If someone is running in the park , then their friends will join in."]}
+{"cd.89": ["If someone is walking in the park, then they will find a bench to sit."]}
+{"cd.90": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.91": ["If someone goes to the library, then they will read a book."]}
+{"cd.92": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.93": ["We know that atleast one of the following is true (1) Jane goes to the supermarket and (2) Jane goes to the movie theater."]}
+{"cd.94": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.95": ["If they go to the library, then they will read a book."]}
+{"cd.96": ["If someone is running in the park, then they will practice yoga later."]}
+{"cd.97": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.98": ["We know that atleast one of the following is true (1) Jenny is shopping for groceries and (2) Jenny is buying clothes."]}
+{"cd.99": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.100": ["We know that atleast one of the following is true (1) Samantha goes to the library and (2) she goes to the park."]}
+{"cd.101": ["and (2) She is watching a movie.."]}
+{"cd.102": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.103": ["We know that atleast one of the following is true (1) John went to the beach and (2) she goes to the park."]}
+{"cd.104": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.105": ["We know that atleast one of the following is true (1) David goes to the library and (2) he goes to the park."]}
+{"cd.106": ["If someone is studying in the library, then they will read a book."]}
+{"cd.107": ["If someone drives to the beach, then they will go for a swim."]}
+{"cd.108": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.109": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.110": ["We know that atleast one of the following is true (1) Amy went to the library and (2) Tom goes to the restaurant."]}
+{"cd.111": ["We know that atleast one of the following is true (1) Sara goes to the library."]}
+{"cd.112": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.113": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.114": ["We know that atleast one of the following is true (1) Raj walks to the river and (2) he takes a bike ride."]}
+{"cd.115": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.116": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.117": ["If someone is making dinner, then their family will have dinner together."]}
+{"cd.118": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.119": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.120": ["If they go to the grocery store, then they will buy some snacks."]}
+{"cd.121": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.122": ["If someone goes to the library , then they will borrow some books."]}
+{"cd.123": ["We know that atleast one of the following is true (1) Alice is reading a book."]}
+{"cd.124": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.125": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.126": ["If someone else planted a flower in the garden, then the flower will bloom and be admired."]}
+{"cd.127": ["and (2) He is taking a break.."]}
+{"cd.128": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.129": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.130": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.131": ["We know that atleast one of the following is true (1) Alice goes to the library and (2) Alice goes to the restaurant."]}
+{"cd.132": ["If they went to the park, then they will have a picnic."]}
+{"cd.133": ["and (2) She eats healthy snacks.."]}
+{"cd.134": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.135": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.136": ["If they ate a burger for breakfast , then they will have a smoothie for dessert."]}
+{"cd.137": ["We know that atleast one of the following is true (1) Riley is walking in the park and (2) she goes to the beach."]}
+{"cd.138": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.139": ["If someone calls the fire brigade, then they will put out the fire."]}
+{"cd.140": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.141": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.142": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.143": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.144": ["We know that atleast one of the following is true (1) Jenny is walking in the park and (2) she goes to the library."]}
+{"cd.145": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"cd.146": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.147": ["If someone is eating an apple, then they will drink some water."]}
+{"cd.148": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"cd.149": ["If someone is swimming in the pool , then they will be getting more confident ."]}
+{"dd.0": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.1": ["We know that atleast one of the following is true (1) he won't be in shape and (2) he will have a healthy lifestyle."]}
+{"dd.2": ["If someone buys a new car , then they will save time commuting ."]}
+{"dd.3": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.4": ["If they take a bus, then they will save money."]}
+{"dd.5": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.6": ["We know that atleast one of the following is true (1) she won't get good grades and (2) she won't feel relaxed."]}
+{"dd.7": ["If they watch movies instead, then they won't learn anything."]}
+{"dd.8": ["If someone goes for a walk, then they will feel energized."]}
+{"dd.9": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.10": ["If someone plays video games, then they will become an expert."]}
+{"dd.11": ["We know that atleast one of the following is true (1) she won't be energized and (2) she won't feel refreshed."]}
+{"dd.12": ["We know that atleast one of the following is true (1) he won't receive a promotion."]}
+{"dd.13": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.14": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.15": ["We know that atleast one of the following is true (1) he won't maintain his weight."]}
+{"dd.16": ["If they go for a walk, then they will relax."]}
+{"dd.17": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.18": ["We know that atleast one of the following is true (1) she won't stay fit and (2) she won't have a toned body."]}
+{"dd.19": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.20": ["If they eat unhealthy food, then they will get sick."]}
+{"dd.21": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.22": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.23": ["If someone reads a book, then they will understand the concept."]}
+{"dd.24": ["We know that atleast one of the following is true (1) she won't get good grades and (2) she won't feel relaxed."]}
+{"dd.25": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.26": ["If someone takes a break, then they will finish their work."]}
+{"dd.27": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.28": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.29": ["If they go to the store , then they will buy something ."]}
+{"dd.30": ["We know that atleast one of the following is true (1) he won't get energized and (2) he won't become fit."]}
+{"dd.31": ["If someone listens to music, then they will feel relaxed."]}
+{"dd.32": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.33": ["If anyone who does their homework, then they will get good grades."]}
+{"dd.34": ["If they watch movies , then they will become wiser ."]}
+{"dd.35": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.36": ["If they take a wrong turn, then they will get lost."]}
+{"dd.37": ["If someone visits the doctor, then they will get medical advice."]}
+{"dd.38": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.39": ["We know that atleast one of the following is true (1) he won't stay awake and (2) he won't be relaxed."]}
+{"dd.40": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.41": ["We know that atleast one of the following is true (1) she won't find the book she needs and (2) she won't get back to her research."]}
+{"dd.42": ["If they watch tv, then they will be entertained."]}
+{"dd.43": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.44": ["If they watch an informative video, then they will gain new insights."]}
+{"dd.45": ["If they watch television, then they will be entertained."]}
+{"dd.46": ["We know that atleast one of the following is true (1) she won't get a promotion and (2) she won't refresh her mind."]}
+{"dd.47": ["We know that atleast one of the following is true (1) she won't arrive on time and (2) she won't reach her destination faster."]}
+{"dd.48": ["If someone is tired, then they will take a nap."]}
+{"dd.49": ["If someone is studying for the exam , then they will get good grades ."]}
+{"dd.50": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.51": ["We know that atleast one of the following is true (1) he doesn't buy something and (2) he doesn't leave empty handed."]}
+{"dd.52": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.53": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.54": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.55": ["If someone takes a break , then they will finish their work ."]}
+{"dd.56": ["If they watch tv, then they will get entertained."]}
+{"dd.57": ["We know that atleast one of the following is true (1) she won't get fresh air."]}
+{"dd.58": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.59": ["We know that atleast one of the following is true (1) she won't make more money and (2) she won't relax."]}
+{"dd.60": ["We know that atleast one of the following is true (1) she won't stay fit and (2) she won't gain weight."]}
+{"dd.61": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.62": ["If they take a nap, then they will feel relaxed."]}
+{"dd.63": ["and (2) she will be able to maintain a healthy lifestyle.."]}
+{"dd.64": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.65": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.66": ["If they watch television, then they will gain entertainment."]}
+{"dd.67": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.68": ["We know that atleast one of the following is true (1) he won't complete his tasks and (2) he won't lose track of time."]}
+{"dd.69": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.70": ["We know that atleast one of the following is true (1) he won't gain knowledge and (2) he won't be entertained."]}
+{"dd.71": ["If they eat unhealthy food, then they will have an unhealthy body."]}
+{"dd.72": ["We know that atleast one of the following is true (1) he won't gain knowledge and (2) he won't have fun."]}
+{"dd.73": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.74": ["If they add spices, then it will be even more flavorful."]}
+{"dd.75": ["If someone works hard, then they will get a promotion."]}
+{"dd.76": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.77": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.78": ["We know that atleast one of the following is true (1) he won't make payments and (2) he won't have to bear the interest."]}
+{"dd.79": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.80": ["If they watch a movie, then they will gain knowledge."]}
+{"dd.81": ["We know that atleast one of the following is true (1) she won't get stronger and (2) she will get the desired result."]}
+{"dd.82": ["If they are unable to pay the loan, then they will be in debt."]}
+{"dd.83": ["If someone goes to the gym, then they will stay healthy."]}
+{"dd.84": ["If they read a book, then they will gain knowledge."]}
+{"dd.85": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.86": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.87": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.88": ["If they use a generator , then they will pay a high electricity bill ."]}
+{"dd.89": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.90": ["We know that atleast one of the following is true (1) she won't have a great time and (2) she won't explore the city."]}
+{"dd.91": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.92": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.93": ["If they eat unhealthy food , then they will gain weight ."]}
+{"dd.94": ["If they attend classes regularly , then they will ace the exam ."]}
+{"dd.95": ["If they indulge in junk food, then they will become unhealthy ."]}
+{"dd.96": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.97": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.98": ["We know that atleast one of the following is true (1) she won't be in a good mood and (2) she won't become energetic."]}
+{"dd.99": ["We know that atleast one of the following is true (1) he won't become fit and (2) he won't gain weight."]}
+{"dd.100": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.101": ["If they take a break, then they will forget the information."]}
+{"dd.102": ["If someone practices yoga, then they will be in good health."]}
+{"dd.103": ["If they watch tv, then they will relax."]}
+{"dd.104": ["We know that atleast one of the following is true (1) he won't pay the interest and (2) he won't face legal actions."]}
+{"dd.105": ["If someone drives carefully, then they will avoid an accident."]}
+{"dd.106": ["If someone goes for a walk , then they will enjoy the scenery ."]}
+{"dd.107": ["If they watch videos online , then they will develop new skills ."]}
+{"dd.108": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.109": ["We know that atleast one of the following is true (1) she won't reach her destination on time and (2) she won't have enough energy for the day."]}
+{"dd.110": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.111": ["If someone eats healthy food , then they will have more energy ."]}
+{"dd.112": ["If they get a flat tire, then they will call for roadside assistance."]}
+{"dd.113": ["If someone takes up a hobby, then they will learn something new."]}
+{"dd.114": ["If someone goes for a walk , then they will get some fresh air ."]}
+{"dd.115": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.116": ["If someone reads a book, then they will gain knowledge."]}
+{"dd.117": ["If they eat junk food, then they will not stay fit."]}
+{"dd.118": ["If someone visits the museum, then they will learn about the culture."]}
+{"dd.119": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.120": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.121": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.122": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.123": ["We know that atleast one of the following is true (1) he won't have a healthy life and (2) he will have a healthy life."]}
+{"dd.124": ["We know that atleast one of the following is true (1) she won't be fit and healthy and (2) she won't be prone to diseases."]}
+{"dd.125": ["If someone is diligent, then they will be rewarded."]}
+{"dd.126": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.127": ["If they stay up late, then they feel exhausted."]}
+{"dd.128": ["If they go for a run, then they will be energised."]}
+{"dd.129": ["If they read a book, then they will learn new things."]}
+{"dd.130": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.131": ["If they meditate, then they will stay focused."]}
+{"dd.132": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.133": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.134": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.135": ["If they stay up late, then they will be exhausted."]}
+{"dd.136": ["If they do not have a license, then they will not be able to drive it."]}
+{"dd.137": ["If they watch a movie, then they will have fun."]}
+{"dd.138": ["We know that atleast one of the following is true (1) she won't understand each other better and (2) she won't drift apart."]}
+{"dd.139": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.140": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.141": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.142": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.143": ["If they sell their car , then they will have more money to invest."]}
+{"dd.144": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.145": ["We know that atleast one of the following is true (1) she won't get promoted and (2) she won't feel energized."]}
+{"dd.146": ["We know that atleast one of the following is true (1) she won't feel energized and (2) she won't stay alert."]}
+{"dd.147": ["Note that we do not know which ones of (1) and (2) are true."]}
+{"dd.148": ["It might be the case that only (1) is true, or only (2) is true or both are true."]}
+{"dd.149": ["If someone takes a nap, then they will feel energized."]}
+{"eg.0": []}
+{"eg.1": []}
+{"eg.2": []}
+{"eg.3": []}
+{"eg.4": []}
+{"eg.5": []}
+{"eg.6": []}
+{"eg.7": []}
+{"eg.8": []}
+{"eg.9": []}
+{"eg.10": []}
+{"eg.11": []}
+{"eg.12": []}
+{"eg.13": []}
+{"eg.14": []}
+{"eg.15": []}
+{"eg.16": []}
+{"eg.17": []}
+{"eg.18": []}
+{"eg.19": []}
+{"eg.20": []}
+{"eg.21": []}
+{"eg.22": []}
+{"eg.23": []}
+{"eg.24": []}
+{"eg.25": []}
+{"eg.26": []}
+{"eg.27": []}
+{"eg.28": []}
+{"eg.29": []}
+{"eg.30": []}
+{"eg.31": []}
+{"eg.32": []}
+{"eg.33": []}
+{"eg.34": []}
+{"eg.35": []}
+{"eg.36": []}
+{"eg.37": []}
+{"eg.38": []}
+{"eg.39": []}
+{"eg.40": []}
+{"eg.41": []}
+{"eg.42": []}
+{"eg.43": []}
+{"eg.44": []}
+{"eg.45": []}
+{"eg.46": []}
+{"eg.47": []}
+{"eg.48": []}
+{"eg.49": []}
+{"eg.50": []}
+{"eg.51": []}
+{"eg.52": []}
+{"eg.53": []}
+{"eg.54": []}
+{"eg.55": []}
+{"eg.56": []}
+{"eg.57": []}
+{"eg.58": []}
+{"eg.59": []}
+{"eg.60": []}
+{"eg.61": []}
+{"eg.62": []}
+{"eg.63": []}
+{"eg.64": []}
+{"eg.65": []}
+{"eg.66": []}
+{"eg.67": []}
+{"eg.68": []}
+{"eg.69": []}
+{"eg.70": []}
+{"eg.71": []}
+{"eg.72": []}
+{"eg.73": []}
+{"eg.74": []}
+{"eg.75": []}
+{"eg.76": []}
+{"eg.77": []}
+{"eg.78": []}
+{"eg.79": []}
+{"eg.80": []}
+{"eg.81": []}
+{"eg.82": []}
+{"eg.83": []}
+{"eg.84": []}
+{"eg.85": []}
+{"eg.86": []}
+{"eg.87": []}
+{"eg.88": []}
+{"eg.89": []}
+{"eg.90": []}
+{"eg.91": []}
+{"eg.92": []}
+{"eg.93": []}
+{"eg.94": []}
+{"eg.95": []}
+{"eg.96": []}
+{"eg.97": []}
+{"eg.98": []}
+{"eg.99": []}
+{"eg.100": []}
+{"eg.101": []}
+{"eg.102": []}
+{"eg.103": []}
+{"eg.104": []}
+{"eg.105": []}
+{"eg.106": []}
+{"eg.107": []}
+{"eg.108": []}
+{"eg.109": []}
+{"eg.110": []}
+{"eg.111": []}
+{"eg.112": []}
+{"eg.113": []}
+{"eg.114": []}
+{"eg.115": []}
+{"eg.116": []}
+{"eg.117": []}
+{"eg.118": []}
+{"eg.119": []}
+{"eg.120": []}
+{"eg.121": []}
+{"eg.122": []}
+{"eg.123": []}
+{"eg.124": []}
+{"eg.125": []}
+{"eg.126": []}
+{"eg.127": []}
+{"eg.128": []}
+{"eg.129": []}
+{"eg.130": []}
+{"eg.131": []}
+{"eg.132": []}
+{"eg.133": []}
+{"eg.134": []}
+{"eg.135": []}
+{"eg.136": []}
+{"eg.137": []}
+{"eg.138": []}
+{"eg.139": []}
+{"eg.140": []}
+{"eg.141": []}
+{"eg.142": []}
+{"eg.143": []}
+{"eg.144": []}
+{"eg.145": []}
+{"eg.146": []}
+{"eg.147": []}
+{"eg.148": []}
+{"eg.149": []}
