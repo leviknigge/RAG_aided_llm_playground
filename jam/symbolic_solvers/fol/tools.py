@@ -252,7 +252,7 @@ class VampireReasoner(basesolver.Solver):
     def __init__(self) -> None:
         super().__init__()
         file_dir = pathlib.Path(__file__).parent.parent.resolve()
-        self.vampire_exe = file_dir / "third_party/Vampire/bin/vampire_z3_rel_static_casc2023_6749.exe"
+        self.vampire_exe = file_dir / "third_party/Vampire/bin/vampire_z3_rel_static_casc2023_6749"
 
     def __call__(self, tptp_formula: str) -> bool:
         """
@@ -266,8 +266,8 @@ class VampireReasoner(basesolver.Solver):
 
             # run vampire on temporary file
             try:
-                # result = subprocess.run([self.vampire_exe, "--input_syntax", "tptp", "--output_mode", "smtcomp", tptp_file ], check=False, capture_output=True, shell=True)
-                result = subprocess.run([self.vampire_exe, "--input_syntax", "tptp", "--output_mode", "smtcomp", tptp_file ], check=True, capture_output=True, shell=True)
+                # result = subprocess.run([self.vampire_exe, "--input_syntax", "tptp", "--output_mode", "smtcomp", tptp_file ], check=False, capture_output=True)
+                result = subprocess.run([self.vampire_exe, "--input_syntax", "tptp", "--output_mode", "smtcomp", tptp_file ], check=True, capture_output=True)
             except subprocess.CalledProcessError as e:
                 raise basesolver.SolverRuntimeException from e
 

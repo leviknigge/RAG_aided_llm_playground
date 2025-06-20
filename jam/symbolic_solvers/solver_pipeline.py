@@ -108,7 +108,7 @@ class SolverPipeline(basesolver.ToolPipeline):
 
         try:
             solver_response = mlflow.trace(self.solver.__call__, name="solver", span_type="TOOL")(formula)
-        except basesolver.SolverRuntimeException as _:
+        except basesolver.SolverRuntimeException as what:
             logging.debug("Runtime error")
             backprompt = "Runtime error" # TODO include runtime error message here
             feedback = CriticFeedback(source=type(self.solver), message=backprompt)
