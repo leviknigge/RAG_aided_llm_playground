@@ -21,7 +21,9 @@ class LogicBench(dataset.BaseDataset):
     """
     def __init__(self, file_name :str, prompt_dir : str) -> None:
         self.prompt_dir = prompt_dir
+        # print(file_name)
         with open(file_name, 'rb') as file:
+            # print("test10")
             raw_data = [json.loads(x) for x in list(file)]
 
         self.data = [(v["id"], v["context"], v["query"], torch.Tensor([v["label"],]).bool(), v["formal context"], v["formal query"]) for v in raw_data]
