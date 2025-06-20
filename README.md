@@ -1,4 +1,6 @@
-# JAMs: Just Autoformalization Models
+#This code base adapts the JAM autoformalization model by Fabian Hoppe. See his research for the original implementation.
+
+#JAMs: Just Autoformalization Models
 
 Every good LLM sandwich needs JAM! Interacting with external systems requires formalisation of the given informal LLM input. The goal of the Just Autoformalization Models framework is to explore methods for LLMs to generate this formal representation as well as find the best ways to provide iterative feedback for the formalisation. 
 
