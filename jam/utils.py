@@ -111,19 +111,20 @@ def write_results(results: list[dict], dataset_filename: str):
     results = [{k: v if v is not None else "" for k,v in result.items()} for result in results]
 
     result_filepath = hydra.core.hydra_config.HydraConfig.get().runtime.output_dir + "/" + dataset_filename[0] + ".jsonl"
+    print(result_filepath)
     with open(result_filepath, "w", encoding="utf-8") as outfile:
         for result in results:
             #avoid new lines in individual dumps with indent=None
             result_json = json.dumps(result, indent=None)
             outfile.write(f"{result_json}\n")
-    mlflow.log_artifact(result_filepath)
+    # mlflow.log_artifact(result_filepath)
 
     # convert results to table format and log to MLFlow
     result_keys = {k for row in results for k in [*row]}
     result_table = {key:[row[key] if key in row else None for row in results] for key in result_keys}
     with open(hydra.core.hydra_config.HydraConfig.get().runtime.output_dir + "/" + dataset_filename[0] + ".json", "w", encoding="utf-8") as outfile:
         json.dump(result_table,outfile, indent=4)
-    mlflow.log_table(result_table, artifact_file=dataset_filename[0] + ".json")
+    # mlflow.log_table(result_table, artifact_file=dataset_filename[0] + ".json")
 
 
 class MetricCollection():

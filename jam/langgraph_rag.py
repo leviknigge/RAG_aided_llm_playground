@@ -16,11 +16,13 @@ import langgraph.graph
 from sentence_transformers import SentenceTransformer
 import json
 import nltk
+# nltk.download()
 
 from . import language_models
 from . import symbolic_solvers
 from . import pipeline
 from . import utils
+import os
 
 
 class GraphState(typing.TypedDict):
@@ -90,7 +92,7 @@ class LangGraphRagWrapper(pipeline.Pipeline):
 
         self.app = workflow.compile()
 
-        logging.debug(self.app.get_graph(xray=1).draw_mermaid())
+        # logging.debug(self.app.get_graph(xray=1).draw_mermaid())
 
 
     def load_kb(self):
@@ -99,14 +101,20 @@ class LangGraphRagWrapper(pipeline.Pipeline):
 
         returns a list of sentences in the knowledge base and the embedded sentences.
         """
-        # root = r"./data/LogicBench"
+        root = r"/home/lknigge/augmented_llm_playground_fabian/data/LogicBench"
+        kb_path = r"/abducted_data/binary/fol_eval_kb.jsonl"
+        # root = r"/data/LogicBench"
         # kb_path = r"/abducted_data/binary/fol_eval_kb.jsonl"
-        root = r"C:\Users\levik\Documents\Thesis\Code\augmented_llm_playground_fabian\data\LogicBench"
-        kb_path = r"\abducted_data\binary\fol_eval_kb.jsonl"
+        # root = r".\data\LogicBench"
+        # kb_path = r"\abducted_data\binary\fol_eval_kb.jsonl"
         
         kb_sents = []
 
+        # print(os.path.dirname(os.path.realpath(__file__)))
+        # print(os.getcwd())
+        # print("test")
         with open(root + kb_path, "r") as f:
+            # print("test2")
             for line in f:
                 datapoint = json.loads(line)
                 id, sent = list(datapoint.items())[0]
@@ -177,7 +185,9 @@ class LangGraphRagWrapper(pipeline.Pipeline):
         input_texts = [self.render_draft(context=context, query=query),]
 
         # generate general text
-        generated_texts = mlflow.trace(self.lm.generate,span_type="LLM")(input_texts)[0] # LLM generates list, but intput is only one
+        # generated_texts = mlflow.trace(self.lm.generate,span_type="LLM")(input_texts)[0] # LLM generates list, but intput is only one
+        generated_texts = self.lm.generate(input_texts)[0] # LLM generates list, but intput is only one
+        # print("1234test")
         # generated_texts = '(∀ ?food (storesInFridge(?food) → remainsFreshLonger(?food)) # stores stuff in fridge\n∧ (keepsOutside(?food) → spoilsQuickly(?food))) ∧ (storesInFridge(john) ∨ ¬spoilsQuickly(jon))\n\nFirst-order logic question: remainsFreshLonger(john) ∨  ¬keepsOutside(john) # thisis a test comment\n----'
 
         # add new generation to end of generations
